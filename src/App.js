@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import Nav from "./Nav"
+import ShowPage from "./ShowPage"
 
 const appStyle = {
   minHeight: "100vh",
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App" style={appStyle}>
       <Nav />
+      <ShowPage />
     </div>
   );
 }
