@@ -5,6 +5,7 @@ const navStyle = {
     height: "5rem",
     width: "100%",
     position: "fixed",
+    top: 0,
     backgroundColor: "#4EB1B7",
     display: "flex",
     justifyContent: "space-between",
