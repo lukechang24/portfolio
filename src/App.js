@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import Nav from "./Nav"
-import ShowPage from "./ShowPage"
+import About from "./About"
 import "./index.css"
 
 const appStyle = {
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App" style={appStyle}>
       <Nav />
-      <ShowPage />
+      <About />
     </div>
   );
 }
