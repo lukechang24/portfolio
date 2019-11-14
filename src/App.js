@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import Nav from "./Nav"
+import Projects from "./Projects"
 import About from "./About"
-import "./index.css"
 
 const appStyle = {
   minHeight: "100vh",
@@ -13,7 +13,10 @@ function App() {
   return (
     <div className="App" style={appStyle}>
       <Nav />
-      <About />
+      <div style={{"margin-top": "5rem"}}>
+        <Projects />
+        <About />
+      </div>
     </div>
   );
 }
