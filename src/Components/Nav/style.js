@@ -9,6 +9,7 @@ S.NavBar = styled.div`
     display: flex;
     align-items: center;
     color: white;
+    margin-bottom: 8rem;
 `
 S.NameDiv = styled.div`
     width: 80%;
