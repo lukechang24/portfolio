@@ -6,6 +6,7 @@ S.Container1 = styled.div`
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background: linear-gradient(to top, rgba(99, 235, 201, 0.6), white, white, white, white);
 `
 S.TitleDiv = styled.div`
     width: 100%;
@@ -31,25 +32,22 @@ S.Container2 = styled.div`
 S.ProjectContainer = styled.div`
     font-family: 'Merriweather', serif;
     width: 18rem;
-    height: 30rem;
+    height: 25rem;
     position: relative;
     margin: 1rem 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 0.1rem solid black;
-    border-radius: 3rem;
 `
 S.ProjectTitle = styled.h3`
     padding: 1rem;
-    color: #426975;
+    color: black;
 `
 
 S.ProjectImg = styled.img`
-    width: 85%;
-    height: 50%;
-    border: 0.1rem solid black;
-    opacity: 0.25;
+    width: 65%;
+    height: 45%;
+    opacity: 0.8;
 `
 
 S.Container3 = styled.div`
@@ -72,18 +70,13 @@ S.Container4 = styled.div`
     justify-content: space-around;
 `
 S.NavLink = styled.a`
-    margin: 1rem;
-    background-color: white;
+    margin: 1.5rem;
     text-decoration: none;
-    border: 0.1rem solid black;
-    border-radius: 0.3rem;
-    padding: 0.5rem;
-    background-color: white;
     color: black;
-    transition: 0.25s;
+    border-bottom: 0.1rem solid transparent;
+    transition: 0.25s; 
     &:hover {
-        background-color: black;
-        color: white;
+        border-color: black;
     }
 `
 
