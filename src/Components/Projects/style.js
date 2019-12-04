@@ -30,27 +30,31 @@ S.Container2 = styled.div`
 `
 
 S.ProjectContainer = styled.div`
-    font-family: 'Merriweather', serif;
+    font-family: 'Abel', sans-serif;
     width: 18rem;
-    height: 25rem;
+    height: 32rem;
     position: relative;
     margin: 1rem 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media only screen and (max-width: 500px) {
+        border-bottom: 0.05rem solid black;
+    }
 `
-S.ProjectTitle = styled.h3`
+S.ProjectTitle = styled.h2`
     padding: 1rem;
     color: black;
 `
 
 S.ProjectImg = styled.img`
-    width: 65%;
-    height: 45%;
+    width: 10rem;
+    height: 10rem;
     opacity: 0.8;
 `
 
 S.Container3 = styled.div`
+    height: 6rem;
     width: 80%;
     text-align: center;
 `
@@ -60,6 +64,10 @@ S.Languages = styled.h1`
     margin: 1rem 0;
     line-height: 2rem;
     font-weight: 400;
+`
+
+S.Description = styled.p`
+    text-align: center;
 `
 
 S.Container4 = styled.div`
@@ -73,10 +81,17 @@ S.NavLink = styled.a`
     margin: 1.5rem;
     text-decoration: none;
     color: black;
+    font-weight: bolder;
     border-bottom: 0.1rem solid transparent;
     transition: 0.25s; 
     &:hover {
         border-color: black;
+    }
+`
+
+S.LineBreak = styled.hr`
+    @media only screen and (max-width: 500px) {
+        display: none;
     }
 `
 

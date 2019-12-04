@@ -13,6 +13,9 @@ S.Container1 = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @media only screen and (max-width: 375px) {
+        height: 30rem;
+    }
 `
 S.IntroDiv = styled.div`
     font-family: 'Merriweather', serif;    
