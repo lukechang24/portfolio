@@ -6,15 +6,15 @@ S.Container1 = styled.div`
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: linear-gradient(to top, rgba(99, 235, 201, 0.6), white, white, white, white);
+    background: linear-gradient(to top, rgba(152, 208, 237), white, white, white);
 `
 S.TitleDiv = styled.div`
     width: 100%;
-    height: 8rem;
+    height: 11rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(99, 235, 201, 0.6), white);
+    background: linear-gradient(rgba(152, 208, 237), white);
 `
 S.Title = styled.h1`
     font-family: 'Merriweather', serif;
@@ -27,20 +27,21 @@ S.Container2 = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     margin: 1rem auto;
+    @media only screen and (max-width: 500px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
 S.ProjectContainer = styled.div`
     font-family: 'Abel', sans-serif;
-    width: 18rem;
+    width: 22rem;
     height: 32rem;
     position: relative;
-    margin: 1rem 1.5rem;
+    margin: 1rem 1.5rem 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    @media only screen and (max-width: 500px) {
-        border-bottom: 0.05rem solid black;
-    }
 `
 S.ProjectTitle = styled.h2`
     padding: 1rem;
@@ -88,10 +89,14 @@ S.NavLink = styled.a`
         border-color: black;
     }
 `
-
-S.LineBreak = styled.hr`
+S.LineBreak = styled.div`
+    width: 1px;
+    height: 31rem;
+    background-color: black;
+    margin: auto 0;
     @media only screen and (max-width: 500px) {
-        display: none;
+        width: 20rem;
+        height: 1px;
     }
 `
 

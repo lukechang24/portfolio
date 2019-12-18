@@ -4,6 +4,7 @@ import snakeGame from "../../images/snake-game.PNG"
 import tomagotchi from "../../images/tomagotchi.PNG"
 import fixYourCode from "../../images/fix-your-code.PNG"
 import gameReviews from "../../images/game-reviews.PNG"
+import drawingGame from "../../images/drawing-game.PNG"
 
 function Projects() {
     return(
@@ -46,11 +47,10 @@ function Projects() {
                     </S.Container3>
                     <S.Description>A site where you can post your broken code to get solutions from other coders. You can comment on other people's post, or like other comments to bring them to the top and make them more visible.</S.Description>
                     <S.Container4>
-                        <S.NavLink href="">Live Site</S.NavLink>
-                        <S.NavLink href="">GitHub</S.NavLink>
+                        <S.NavLink href="https://fix-your-code.herokuapp.com/posts" target="_blank">Live Site</S.NavLink>
+                        <S.NavLink href="https://github.com/lukechang24/Fix-Your-Code" target="_blank">GitHub</S.NavLink>
                     </S.Container4>
                 </S.ProjectContainer>
-                <S.LineBreak></S.LineBreak>
                 <S.ProjectContainer>
                     <S.ProjectTitle>Game Reviews</S.ProjectTitle>
                     <S.ProjectImg src={gameReviews}></S.ProjectImg>
@@ -59,8 +59,21 @@ function Projects() {
                     </S.Container3>
                     <S.Description>A site where you can post your broken code to get solutions from other coders. You can comment on other people's post, or like other comments to bring them to the top and make them more visible.</S.Description>
                     <S.Container4>
-                        <S.NavLink href="">Live Site</S.NavLink>
-                        <S.NavLink href="">GitHub</S.NavLink>
+                        <S.NavLink href="https://legendary-game-reviews.herokuapp.com/" target="_blank">Live Site</S.NavLink>
+                        <S.NavLink href="https://github.com/moonjason/legendary-game-reviews-react" target="_blank">GitHub</S.NavLink>
+                    </S.Container4>
+                </S.ProjectContainer>
+                <S.LineBreak></S.LineBreak>
+                <S.ProjectContainer>
+                    <S.ProjectTitle>Accurate or Naw</S.ProjectTitle>
+                    <S.ProjectImg src={drawingGame}></S.ProjectImg>
+                    <S.Container3>
+                        <S.Languages>Javascript | ReactJS | Styled Components | Firebase</S.Languages>
+                    </S.Container3>
+                    <S.Description>An online drawing game where you and other players create silly prompts that players will then have to draw. The players then vote whether or not a player's drawing accurately depicts his/her prompt.</S.Description>
+                    <S.Container4>
+                        <S.NavLink href="https://capstone-ab1a2.firebaseapp.com/lobby" target="_blank">Live Site</S.NavLink>
+                        <S.NavLink href="https://github.com/lukechang24/Accurate-or-Naw" target="_blank">GitHub</S.NavLink>
                     </S.Container4>
                 </S.ProjectContainer>
             </S.Container2>
