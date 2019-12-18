@@ -57,7 +57,7 @@ function Projects() {
                     <S.Container3>
                         <S.Languages>Javascript | ReactJS | Styled Components | Python | Flask</S.Languages>
                     </S.Container3>
-                    <S.Description>A site where you can post your broken code to get solutions from other coders. You can comment on other people's post, or like other comments to bring them to the top and make them more visible.</S.Description>
+                    <S.Description>A game review site where you can check other users reviews on a particular game. You can search for games using the search bar, and you can also write your own review based off of your experience or knowledge.</S.Description>
                     <S.Container4>
                         <S.NavLink href="https://legendary-game-reviews.herokuapp.com/" target="_blank">Live Site</S.NavLink>
                         <S.NavLink href="https://github.com/moonjason/legendary-game-reviews-react" target="_blank">GitHub</S.NavLink>

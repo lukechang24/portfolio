@@ -6,7 +6,7 @@ S.Container1 = styled.div`
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: linear-gradient(to top, rgba(152, 208, 237), white, white, white);
+    background: linear-gradient(to top, rgba(152, 208, 237), white, white, white, white);
 `
 S.TitleDiv = styled.div`
     width: 100%;
@@ -22,7 +22,7 @@ S.Title = styled.h1`
 `
 
 S.Container2 = styled.div`
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -36,7 +36,7 @@ S.Container2 = styled.div`
 S.ProjectContainer = styled.div`
     font-family: 'Abel', sans-serif;
     width: 22rem;
-    height: 32rem;
+    height: 30rem;
     position: relative;
     margin: 1rem 1.5rem 3rem;
     display: flex;
@@ -55,7 +55,7 @@ S.ProjectImg = styled.img`
 `
 
 S.Container3 = styled.div`
-    height: 6rem;
+    height: 5rem;
     width: 80%;
     text-align: center;
 `
@@ -90,8 +90,8 @@ S.NavLink = styled.a`
     }
 `
 S.LineBreak = styled.div`
-    width: 1px;
-    height: 31rem;
+    border-right: 1px solid black;
+    height: 30rem;
     background-color: black;
     margin: auto 0;
     @media only screen and (max-width: 500px) {

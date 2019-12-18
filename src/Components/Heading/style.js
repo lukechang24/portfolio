@@ -9,7 +9,7 @@ S.Container1 = styled.div`
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    height: calc(100vh + 5rem);
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
