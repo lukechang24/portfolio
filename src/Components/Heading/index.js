@@ -10,7 +10,7 @@ function HeadingPage() {
             <Nav />
                 <S.IntroDiv>
                 <S.IntroText1>Hello,</S.IntroText1>
-                <S.IntroText2>I am a software engineer specializing in mainly Javascript and related frameworks.</S.IntroText2>
+                <S.IntroText2>I am a software engineer specializing in Javascript and related frameworks.</S.IntroText2>
             </S.IntroDiv>
         </S.Container1>
     )
