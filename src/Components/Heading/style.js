@@ -12,32 +12,44 @@ S.Container1 = styled.div`
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     @media only screen and (max-width: 375px) {
-        height: 30rem;
+        height: 35rem;
+        align-items: center;
+        justify-content: center;
     }
 `
 S.IntroDiv = styled.div`
     font-family: 'Merriweather', serif;    
-    width: 45rem;
+    width: 45%;
     height: 20rem;
-    margin: 0rem 0rem 15rem 3rem;
+    margin: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     color: white;
+    @media only screen and (max-width: 375px) {
+        width: 80%;
+        justify-content: center;
+    }
 `
 
 S.IntroText1 = styled.h1`
     width: 100%;
     text-align: left;
     font-size: 5rem;
+    @media only screen and (max-width: 375px) {
+        font-size: 4rem;
+    }
 `
 
 S.IntroText2 = styled.p`
     font-size: 2.5rem;
     font-weight: 500;
+    @media only screen and (max-width: 375px) {
+        font-size: 1.5rem;
+    }
 `
 
 export default S;

@@ -27,7 +27,7 @@ S.BrandStatement = styled.p`
     @media only screen and (max-width: 500px) {
         width: 90%;
         font-size: 1rem;
-        line-height: 2;
+        line-height: 1.5;
     }
 ` 
 

@@ -15,6 +15,9 @@ S.TitleDiv = styled.div`
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(152, 208, 237), white);
+    /* @media only screen and (max-width: 375px) {
+        height: 5rem;
+    } */
 `
 S.Title = styled.h1`
     font-family: 'Merriweather', serif;
@@ -27,21 +30,20 @@ S.Container2 = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     margin: 1rem auto;
-    @media only screen and (max-width: 500px) {
-        flex-direction: column;
-        align-items: center;
-    }
 `
 
 S.ProjectContainer = styled.div`
     font-family: 'Abel', sans-serif;
-    width: 22rem;
+    width: 18rem;
     height: 30rem;
     position: relative;
     margin: 1rem 1.5rem 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media only screen and (max-width: 375px) {
+        margin: 0 auto;
+    }
 `
 S.ProjectTitle = styled.h2`
     padding: 1rem;
