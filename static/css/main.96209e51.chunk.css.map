@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,EACE,QAAS,CACT,SACF,CAEA,KACE,iBACF","file":"main.96209e51.chunk.css","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  overflow-x: hidden;\r\n}\r\n"]}
