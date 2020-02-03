@@ -6,7 +6,7 @@ import fixYourCode from "../../images/fix-your-code.PNG"
 import gameReviews from "../../images/game-reviews.PNG"
 import drawingGame from "../../images/drawing-game.PNG"
 
-function Projects() {
+const Projects = () => {
     return(
         <S.Container1>
             <S.TitleDiv>

@@ -4,7 +4,7 @@ import About from "../About"
 
 import S from "./style"
 
-function HeadingPage() {
+const HeadingPage = () => {
     return(
         <S.Container1>
             <Nav />
