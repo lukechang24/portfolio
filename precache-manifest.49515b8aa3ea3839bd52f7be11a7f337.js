@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8de33323d4b1cf9360ee6d7a2474a5e5",
+    "revision": "39f374304594f7a1ab2313ec91de510d",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "4ca3700181675f56570c",
+    "revision": "f299a19dbcac4c70a9ea",
     "url": "/portfolio/static/css/main.3792aed1.chunk.css"
   },
   {
-    "revision": "26c7cfa80bd89273f407",
-    "url": "/portfolio/static/js/2.3c2588b0.chunk.js"
+    "revision": "80e473e2bd2308a83d52",
+    "url": "/portfolio/static/js/2.5684ac7b.chunk.js"
   },
   {
-    "revision": "4ca3700181675f56570c",
-    "url": "/portfolio/static/js/main.af024ca9.chunk.js"
+    "revision": "f299a19dbcac4c70a9ea",
+    "url": "/portfolio/static/js/main.41f3ec4d.chunk.js"
   },
   {
     "revision": "6b26cb3bc1b9147ba086",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f6e5f92465aad06a01272b54a4f37550",
     "url": "/portfolio/static/media/origami.f6e5f924.jpg"
+  },
+  {
+    "revision": "f297dfcd8b3e9215ee862f232d5c9d13",
+    "url": "/portfolio/static/media/react.f297dfcd.png"
   },
   {
     "revision": "d74accb46fdd43d5e8590855b47e9bd5",
