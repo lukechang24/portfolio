@@ -9,8 +9,8 @@ const HeadingPage = () => {
         <S.Container1>
             <Nav />
                 <S.IntroDiv>
-                <S.IntroText1>Hello,</S.IntroText1>
-                <S.IntroText2>I am a software engineer specializing in Javascript and related frameworks.</S.IntroText2>
+                <S.IntroText1><S.Small>Hi, my name is</S.Small><br/> Luke Chang,</S.IntroText1>
+                <S.IntroText2>I am a software engineer specializing in Javascript and React.</S.IntroText2>
             </S.IntroDiv>
         </S.Container1>
     )

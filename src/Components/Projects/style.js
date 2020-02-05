@@ -19,6 +19,7 @@ S.TitleDiv = styled.div`
         height: 5rem;
     } */
 `
+
 S.Title = styled.h1`
     font-family: 'Merriweather', serif;
     color: #426975;

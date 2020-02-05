@@ -7,31 +7,31 @@ S.NavBar = styled.div`
     top: 0;
     width: 100%;
     font-family: 'Quicksand', sans-serif;
-    height: 5rem;
     background-color: inherit;
     display: flex;
     align-items: center;
     color: white;
-    margin-bottom: 8rem;
-    @media only screen and (max-width: 375px) {
-        margin-bottom: 1rem;
-    }
 `
-S.NameDiv = styled.div`
+S.LogoDiv = styled.div`
     width: 50%;
-    @media only screen and (max-width: 375px) {
+    margin: 10px 0;
+    @media only screen and (max-width: 550px) {
         width: 100%;
     }
 `
-S.Name = styled.h1`
-    padding-left: 3rem;
+S.Logo = styled.img`
+    width: 50px;
+    padding-left: 50px;
+    @media only screen and (max-width: 550px) {
+        padding-left: 25px;
+    }
 `
 
 S.NavLinkDiv = styled.div`
     width: 50%;
     display: flex;
     justify-content: flex-end;
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 550px) {
         display: none;
     }
 `

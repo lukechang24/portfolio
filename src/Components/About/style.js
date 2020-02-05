@@ -43,6 +43,7 @@ S.Container2 = styled.div`
     @media only screen and (max-width: 1040px) {
         width: 90%;
         flex-wrap: wrap;
+        margin: 25px 0;
     }
 `
 
@@ -52,7 +53,7 @@ S.IconContainer = styled.div`
     align-items: center;
     margin: 0 20px;
     @media only screen and (max-width: 1040px) {
-        margin: 10px 8px;
+        margin: 10px 10px;
     }
 `
 
