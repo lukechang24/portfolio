@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "463bb933aa3b952f7aba5cb4b9149289",
+    "revision": "273f6c9d4190b1a3873342fe195e70a9",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "b669a96bc7e4f1f9824b",
+    "revision": "af3cfe5af50c8fff0816",
     "url": "/portfolio/static/css/main.3792aed1.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.5da1dc01.chunk.js"
   },
   {
-    "revision": "b669a96bc7e4f1f9824b",
-    "url": "/portfolio/static/js/main.9146bb1e.chunk.js"
+    "revision": "af3cfe5af50c8fff0816",
+    "url": "/portfolio/static/js/main.0f1432cc.chunk.js"
   },
   {
     "revision": "6b26cb3bc1b9147ba086",
@@ -49,6 +49,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "c2452aed23e96fadc1ae1af1e5c22c03",
-    "url": "/portfolio/static/media/tomagotchi.c2452aed.PNG"
+    "url": "/portfolio/static/media/tamagotchi.c2452aed.PNG"
   }
 ]);
