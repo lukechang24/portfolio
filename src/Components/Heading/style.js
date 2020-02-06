@@ -48,6 +48,7 @@ S.IntroText1 = styled.h1`
 S.IntroText2 = styled.p`
     font-size: 2.5rem;
     font-weight: 500;
+    color: #E3F7FD;
     @media only screen and (max-width: 1040px) {
         font-size: 30px;
     }
@@ -58,6 +59,7 @@ S.IntroText2 = styled.p`
 
 S.Small = styled.span`
     font-size: 30px;
+    color: #E3F7FD;
     @media only screen and (max-width: 700px) {
         font-size: 20px;
     }

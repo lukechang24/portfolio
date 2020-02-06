@@ -72,6 +72,7 @@ S.Container3 = styled.div`
 S.ProjectTitle = styled.h1`
     font-size: 35px;
     margin-bottom: 5px;
+    color: #426975;
     @media only screen and (max-width: 550px) {
         font-size: 25px;
     }
@@ -110,11 +111,23 @@ S.Container4 = styled.div`
 `
 
 S.NavLink = styled.a`
+    position: relative;
     text-decoration: none;
     border-bottom: 2.5px solid white;
-    transition: border 0.25s ease-in-out;
-    &:hover {
-        border-bottom: 2.5px solid #000;
+    &::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 25px;
+        width: 0;
+        height: 2.5px;
+        background-color: black;
+        transition: width 0.25s ease;
+    }
+    &:hover::before, &:active::before, &:focus::before {
+        left: 0;
+        right: auto;
+        width: 100%;
     }
 `
 

@@ -21,9 +21,9 @@ S.Heading = styled.h1`
 `
 
 S.BrandStatement = styled.p`
-    width: 50%;
-    font-size: 1.5rem;
-    color: white;
+    width: 60%;
+    font-size: 25px;
+    color: #E3F7FD;
     text-align: center;
     line-height: 1.75;
     @media only screen and (max-width: 1040px) {
@@ -34,7 +34,7 @@ S.BrandStatement = styled.p`
     }
     @media only screen and (max-width: 550px) {
         width: 90%;
-        font-size: 15px;
+        font-size: 17px;
         line-height: 1.5;
     }
 ` 

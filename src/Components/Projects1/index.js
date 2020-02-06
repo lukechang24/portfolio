@@ -9,13 +9,12 @@ import drawingGame from "../../images/drawing-game.PNG"
 class Projects1 extends Component {
     checkScroll = () => {
         const projects = document.querySelectorAll(".project")
-        console.log("SCROLL")
         projects.forEach((project,i) => {
-            if(project.offsetTop < window.pageYOffset+650) {
+            if(project.offsetTop < window.pageYOffset+600) {
                 project.style.opacity = 1
                 project.style.top = 0
             }
-            if(project.offsetTop < window.pageYOffset+650 && i === projects.length-1) {
+            if(project.offsetTop < window.pageYOffset+600 && i === projects.length-1) {
                 window.removeEventListener("scroll", this.checkScroll)
             }
         })
@@ -37,8 +36,8 @@ class Projects1 extends Component {
                         <S.ProjectImg2 src={snakeGame}></S.ProjectImg2>
                         <S.Description>A game based off of the classic nokia snake game with a twist. Try to collect as many stars while dodging asteroids, or shoot them for more points. Various power-ups will appear to help you survive. Running into a wall, your own body, or an asteroid will result in a game over.</S.Description>
                         <S.Container4>
-                            <S.NavLink href="https://lukechang24.github.io/Space-Snake/" target="_blank">Live Site</S.NavLink>
-                            <S.NavLink href="https://github.com/lukechang24/Space-Snake" target="_blank">Github</S.NavLink>
+                            <S.NavLink href="https://lukechang24.github.io/space-snake/" target="_blank">Live Site</S.NavLink>
+                            <S.NavLink href="https://github.com/lukechang24/space-snake" target="_blank">Github</S.NavLink>
                         </S.Container4>
                     </S.Container3>
                 </S.ProjectContainer>
