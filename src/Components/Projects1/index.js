@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import S from "./style"
 import snakeGame from "../../images/snake-game.PNG"
-import tomagotchi from "../../images/tomagotchi.PNG"
+import tamagotchi from "../../images/tamagotchi.PNG"
 import fixYourCode from "../../images/fix-your-code.PNG"
 import gameReviews from "../../images/game-reviews.PNG"
 import drawingGame from "../../images/drawing-game.PNG"
@@ -44,15 +44,15 @@ class Projects1 extends Component {
                 </S.ProjectContainer>
                 <S.LineBreak></S.LineBreak>
                 <S.ProjectContainer className="project left" left>
-                    <S.ProjectImg1 src={tomagotchi}></S.ProjectImg1>
+                    <S.ProjectImg1 src={tamagotchi}></S.ProjectImg1>
                     <S.Container3>
-                        <S.ProjectTitle>Tomagotchi</S.ProjectTitle>
+                        <S.ProjectTitle>Tamagotchi</S.ProjectTitle>
                         <S.Languages>Javascript | HTML5 | CSS</S.Languages>
-                        <S.ProjectImg2 src={tomagotchi}></S.ProjectImg2>
+                        <S.ProjectImg2 src={tamagotchi}></S.ProjectImg2>
                         <S.Description>A game where you take care of your pet by keeping its hunger, boredom, and sleepiness level below 10. The game runs in real time, so make sure you watch over your pet so it doesn't die.</S.Description>
                         <S.Container4>
-                            <S.NavLink href="https://lukechang24.github.io/tomagotchi/" target="_blank">Live Site</S.NavLink>
-                            <S.NavLink href="https://github.com/lukechang24/tomagotchi" target="_blank">Github</S.NavLink>
+                            <S.NavLink href="https://lukechang24.github.io/tamagotchi/" target="_blank">Live Site</S.NavLink>
+                            <S.NavLink href="https://github.com/lukechang24/tamagotchi" target="_blank">Github</S.NavLink>
                         </S.Container4>
                     </S.Container3>
                 </S.ProjectContainer>

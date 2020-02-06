@@ -14,7 +14,10 @@ S.Container1 = styled.div`
 S.Heading = styled.h1`
     text-align: center;
     color: white;
-    margin: 2rem 0;
+    margin: 40px 0;
+    @media only screen and (max-width: 550px) {
+        margin: 20px 0;
+    }
 `
 
 S.BrandStatement = styled.p`
@@ -29,9 +32,10 @@ S.BrandStatement = styled.p`
     @media only screen and (max-width: 800px) {
         font-size: 20px;
     }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 550px) {
         width: 90%;
         font-size: 15px;
+        line-height: 1.5;
     }
 ` 
 
@@ -60,12 +64,19 @@ S.IconContainer = styled.div`
 S.Icon = styled.img`
     width: 75px;
     margin: 5px 0;
+    @media only screen and (max-width: 550px) {
+        width: 50px;
+    }
 `
+
 S.IconName = styled.span`
     color: white;
     margin-top: 15px;
     @media only screen and (max-width: 1040px) {
         margin-top: 0;
+    }
+    @media only screen and (max-width: 550px) {
+        font-size: 15px;
     }
 `
 
