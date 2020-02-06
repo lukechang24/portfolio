@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "39f374304594f7a1ab2313ec91de510d",
+    "revision": "463bb933aa3b952f7aba5cb4b9149289",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "f299a19dbcac4c70a9ea",
+    "revision": "b669a96bc7e4f1f9824b",
     "url": "/portfolio/static/css/main.3792aed1.chunk.css"
   },
   {
-    "revision": "80e473e2bd2308a83d52",
-    "url": "/portfolio/static/js/2.5684ac7b.chunk.js"
+    "revision": "8e35a7739a4143097c5d",
+    "url": "/portfolio/static/js/2.5da1dc01.chunk.js"
   },
   {
-    "revision": "f299a19dbcac4c70a9ea",
-    "url": "/portfolio/static/js/main.41f3ec4d.chunk.js"
+    "revision": "b669a96bc7e4f1f9824b",
+    "url": "/portfolio/static/js/main.9146bb1e.chunk.js"
   },
   {
     "revision": "6b26cb3bc1b9147ba086",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/game-reviews.8878f20e.PNG"
   },
   {
-    "revision": "25bf045ca257e971124f3997d89f321c",
-    "url": "/portfolio/static/media/logo.25bf045c.svg"
+    "revision": "3c8309a3ba7be608144a08f3b4d5d915",
+    "url": "/portfolio/static/media/logo.3c8309a3.png"
   },
   {
     "revision": "f6e5f92465aad06a01272b54a4f37550",
