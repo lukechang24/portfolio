@@ -7,7 +7,7 @@ S.NavBar = styled.div`
     top: 0;
     width: 100%;
     font-family: 'Quicksand', sans-serif;
-    background-color: inherit;
+    background-color: transparent;
     display: flex;
     align-items: center;
     color: white;

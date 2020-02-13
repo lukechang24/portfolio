@@ -12,7 +12,6 @@ S.TitleDiv = styled.div`
     width: 100%;
     height: 11rem;
     display: flex;
-    justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(152, 208, 237), white);
 `
@@ -21,13 +20,15 @@ S.Title = styled.h1`
     font-family: 'Merriweather', serif;
     font-size: 45px;
     color: #426975;
+    color: hsl(194, 28%, 45%);
+    margin-left: 15%;
 `
 
 S.ProjectContainer = styled.div`
     font-family: 'Vollkorn', serif;
     position: relative;
     top: 30px;
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-direction: ${props => props.left ? "row-reverse" : "row"};
     justify-content: space-between;
@@ -42,7 +43,7 @@ S.ProjectContainer = styled.div`
 `
 
 S.ProjectImg1 = styled.img`
-    width: 35%;
+    width: 30%;
     border: 3px solid black;
     @media only screen and (max-width: 1040px) {
         display: none;
@@ -59,7 +60,7 @@ S.ProjectImg2 = styled.img`
 `
 
 S.Container3 = styled.div`
-    width: 60%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,7 +73,7 @@ S.Container3 = styled.div`
 S.ProjectTitle = styled.h1`
     font-size: 35px;
     margin-bottom: 5px;
-    color: #426975;
+    color: hsl(194, 35%, 65%);
     @media only screen and (max-width: 550px) {
         font-size: 25px;
     }
@@ -80,6 +81,7 @@ S.ProjectTitle = styled.h1`
 
 S.Languages = styled.p`
     text-align: center;
+    color: hsl(194, 5%, 50%);
     margin-bottom: 15px;
     @media only screen and (max-width: 550px) {
         font-size: 15px;
@@ -87,8 +89,9 @@ S.Languages = styled.p`
 `
 
 S.Description = styled.p`
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 25px;
+    color: hsl(200, 15%, 50%);
     line-height: 35px;
     margin-bottom: 50px;
     @media only screen and (max-width: 1040px) {
