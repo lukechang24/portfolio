@@ -14,6 +14,9 @@ S.TitleDiv = styled.div`
     display: flex;
     align-items: center;
     background: linear-gradient(rgba(152, 208, 237), white);
+    @media only screen and (max-width: 1040px) {
+        justify-content: center;
+    }
 `
 
 S.Title = styled.h1`
@@ -22,6 +25,9 @@ S.Title = styled.h1`
     color: #426975;
     color: hsl(194, 28%, 45%);
     margin-left: 15%;
+    @media only screen and (max-width: 1040px) {
+        margin: 0;
+    }
 `
 
 S.ProjectContainer = styled.div`
@@ -37,8 +43,12 @@ S.ProjectContainer = styled.div`
     opacity: 0;
     transition: all 0.5s ease-in-out;
     @media only screen and (max-width: 1040px) {
+        width: 85%;
         flex-direction: column;
         margin-bottom: 50px;
+    }
+    @media only screen and (max-width: 650px) {
+        width: 85%;
     }
 `
 
@@ -72,17 +82,22 @@ S.Container3 = styled.div`
 
 S.ProjectTitle = styled.h1`
     font-size: 35px;
+    text-align: center;
     margin-bottom: 5px;
     color: hsl(194, 35%, 65%);
     @media only screen and (max-width: 550px) {
         font-size: 25px;
+        &.small {
+            font-size: 17px
+        }
     }
 `
 
 S.Languages = styled.p`
+    font-size: 20px;
     text-align: center;
     color: hsl(194, 5%, 50%);
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     @media only screen and (max-width: 550px) {
         font-size: 15px;
     }
@@ -90,16 +105,19 @@ S.Languages = styled.p`
 
 S.Description = styled.p`
     font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    justify-content: center;
     font-size: 25px;
     color: hsl(200, 15%, 50%);
     line-height: 35px;
     margin-bottom: 50px;
     @media only screen and (max-width: 1040px) {
         font-size: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
     @media only screen and (max-width: 550px) {
         font-size: 18px;
+        line-height: 30px;
     }
 `
 

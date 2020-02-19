@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import S from "./style"
+import Hackathon from "../../images/hackathon.PNG"
 import snakeGame from "../../images/snake-game.PNG"
 import tomagotchi from "../../images/tomagotchi.PNG"
 import fixYourCode from "../../images/fix-your-code.PNG"
@@ -29,6 +30,19 @@ class Projects1 extends Component {
                     <S.Title>Projects</S.Title>
                 </S.TitleDiv>
                 <S.ProjectContainer className="project">
+                    <S.ProjectImg1 src={Hackathon}></S.ProjectImg1>
+                    <S.Container3>
+                        <S.ProjectTitle className="small">LA Food Policy Council Dashboard</S.ProjectTitle>
+                        <S.Languages>ReactJS | NodeJS | Express | MongoDB | ApexCharts</S.Languages>
+                        <S.ProjectImg2 src={Hackathon}></S.ProjectImg2>
+                        <S.Description>A project assigned by the LA Food Policy Council at a hackathon hosted by General Assembly that I took part in. My team's goal was to take LA county's health statistics, such as food insecurities, and display them on the website. We worked together with a data scientist who was able to turn the data into a readable format(for the computer), which made it easier for us to allow the users to toggle through different statistics with filters.</S.Description>
+                        <S.Container4>
+                            <S.NavLink href="https://capstone-ab1a2.firebaseapp.com/lobby" target="_blank">Live Site</S.NavLink>
+                            <S.NavLink href="https://github.com/lukechang24/Accurate-or-Naw" target="_blank">Github</S.NavLink>
+                        </S.Container4>
+                    </S.Container3>
+                </S.ProjectContainer>
+                <S.ProjectContainer className="project left" left>
                     <S.ProjectImg1 src={snakeGame}></S.ProjectImg1>
                     <S.Container3>
                         <S.ProjectTitle>Space Snake</S.ProjectTitle>
@@ -38,20 +52,6 @@ class Projects1 extends Component {
                         <S.Container4>
                             <S.NavLink href="https://lukechang24.github.io/space-snake/" target="_blank">Live Site</S.NavLink>
                             <S.NavLink href="https://github.com/lukechang24/space-snake" target="_blank">Github</S.NavLink>
-                        </S.Container4>
-                    </S.Container3>
-                </S.ProjectContainer>
-                <S.LineBreak></S.LineBreak>
-                <S.ProjectContainer className="project left" left>
-                    <S.ProjectImg1 src={tomagotchi}></S.ProjectImg1>
-                    <S.Container3>
-                        <S.ProjectTitle>Tomagotchi</S.ProjectTitle>
-                        <S.Languages>Javascript | HTML5 | CSS</S.Languages>
-                        <S.ProjectImg2 src={tomagotchi}></S.ProjectImg2>
-                        <S.Description>A game where you take care of your pet by keeping its hunger, boredom, and sleepiness level below 10. The game runs in real time, so make sure you watch over your pet so it doesn't die.</S.Description>
-                        <S.Container4>
-                            <S.NavLink href="https://lukechang24.github.io/tomagotchi/" target="_blank">Live Site</S.NavLink>
-                            <S.NavLink href="https://github.com/lukechang24/tomagotchi" target="_blank">Github</S.NavLink>
                         </S.Container4>
                     </S.Container3>
                 </S.ProjectContainer>
@@ -94,6 +94,20 @@ class Projects1 extends Component {
                         <S.Container4>
                             <S.NavLink href="https://capstone-ab1a2.firebaseapp.com/lobby" target="_blank">Live Site</S.NavLink>
                             <S.NavLink href="https://github.com/lukechang24/Accurate-or-Naw" target="_blank">Github</S.NavLink>
+                        </S.Container4>
+                    </S.Container3>
+                </S.ProjectContainer>
+                <S.LineBreak></S.LineBreak>
+                <S.ProjectContainer className="project left" left>
+                    <S.ProjectImg1 src={tomagotchi}></S.ProjectImg1>
+                    <S.Container3>
+                        <S.ProjectTitle>Tomagotchi</S.ProjectTitle>
+                        <S.Languages>Javascript | HTML5 | CSS</S.Languages>
+                        <S.ProjectImg2 src={tomagotchi}></S.ProjectImg2>
+                        <S.Description>A game where you take care of your pet by keeping its hunger, boredom, and sleepiness level below 10. The game runs in real time, so make sure you watch over your pet so it doesn't die.</S.Description>
+                        <S.Container4>
+                            <S.NavLink href="https://lukechang24.github.io/tomagotchi/" target="_blank">Live Site</S.NavLink>
+                            <S.NavLink href="https://github.com/lukechang24/tomagotchi" target="_blank">Github</S.NavLink>
                         </S.Container4>
                     </S.Container3>
                 </S.ProjectContainer>

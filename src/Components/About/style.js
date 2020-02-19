@@ -22,8 +22,8 @@ S.Heading = styled.h1`
     }
     @media only screen and (max-width: 550px) {
         width: 90%;
-        text-align: left;
-        margin: 5px 0;
+        text-align: center;
+        margin: 20px 0 5px;
     }
 `
 
