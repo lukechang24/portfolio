@@ -37,8 +37,7 @@ class Projects1 extends Component {
                         <S.ProjectImg2 src={Hackathon}></S.ProjectImg2>
                         <S.Description>A project assigned by the LA Food Policy Council at a hackathon hosted by General Assembly that I took part in. My team's goal was to take LA county's health statistics, such as food insecurities, and display them on the website. We worked together with a data scientist who was able to turn the data into a readable format(for the computer), which made it easier for us to allow the users to toggle through different statistics with filters.</S.Description>
                         <S.Container4>
-                            <S.NavLink href="https://capstone-ab1a2.firebaseapp.com/lobby" target="_blank">Live Site</S.NavLink>
-                            <S.NavLink href="https://github.com/lukechang24/Accurate-or-Naw" target="_blank">Github</S.NavLink>
+                            <S.NavLink href="https://github.com/moonjason/LAFPC-Hackathon" target="_blank">Github</S.NavLink>
                         </S.Container4>
                     </S.Container3>
                 </S.ProjectContainer>
