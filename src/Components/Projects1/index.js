@@ -41,21 +41,8 @@ class Projects1 extends Component {
                         </S.Container4>
                     </S.Container3>
                 </S.ProjectContainer>
-                <S.ProjectContainer className="project left" left>
-                    <S.ProjectImg1 src={snakeGame}></S.ProjectImg1>
-                    <S.Container3>
-                        <S.ProjectTitle>Space Snake</S.ProjectTitle>
-                        <S.Languages>Javascript | HTML5 | CSS</S.Languages>
-                        <S.ProjectImg2 src={snakeGame}></S.ProjectImg2>
-                        <S.Description>A game based off of the classic nokia snake game with a twist. Try to collect as many stars while dodging asteroids, or shoot them for more points. Various power-ups will appear to help you survive. Running into a wall, your own body, or an asteroid will result in a game over.</S.Description>
-                        <S.Container4>
-                            <S.NavLink href="https://lukechang24.github.io/space-snake/" target="_blank">Live Site</S.NavLink>
-                            <S.NavLink href="https://github.com/lukechang24/space-snake" target="_blank">Github</S.NavLink>
-                        </S.Container4>
-                    </S.Container3>
-                </S.ProjectContainer>
                 <S.LineBreak></S.LineBreak>
-                <S.ProjectContainer className="project">
+                <S.ProjectContainer className="project left" left>
                     <S.ProjectImg1 src={fixYourCode}></S.ProjectImg1>
                     <S.Container3>
                         <S.ProjectTitle>Fix Your Code</S.ProjectTitle>
@@ -69,6 +56,19 @@ class Projects1 extends Component {
                     </S.Container3>
                 </S.ProjectContainer>
                 <S.LineBreak></S.LineBreak>
+                <S.ProjectContainer className="project">
+                    <S.ProjectImg1 src={snakeGame}></S.ProjectImg1>
+                    <S.Container3>
+                        <S.ProjectTitle>Space Snake</S.ProjectTitle>
+                        <S.Languages>Javascript | HTML5 | CSS</S.Languages>
+                        <S.ProjectImg2 src={snakeGame}></S.ProjectImg2>
+                        <S.Description>A game based off of the classic nokia snake game with a twist. Try to collect as many stars while dodging asteroids, or shoot them for more points. Various power-ups will appear to help you survive. Running into a wall, your own body, or an asteroid will result in a game over.</S.Description>
+                        <S.Container4>
+                            <S.NavLink href="https://lukechang24.github.io/space-snake/" target="_blank">Live Site</S.NavLink>
+                            <S.NavLink href="https://github.com/lukechang24/space-snake" target="_blank">Github</S.NavLink>
+                        </S.Container4>
+                    </S.Container3>
+                </S.ProjectContainer>
                 <S.ProjectContainer className="project left" left>
                     <S.ProjectImg1 src={gameReviews}></S.ProjectImg1>
                     <S.Container3>
