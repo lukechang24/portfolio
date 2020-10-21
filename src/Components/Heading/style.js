@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import HeadingImg from "../../images/origami.jpg"
+import HeadingImg from "../../images/origamiSmall1.jpg"
 
 const S = {}
 

@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import S from "./style"
-import Hackathon from "../../images/hackathon.PNG"
+import sushiGallery from "../../images/sushi-gallery.PNG"
+import hackathon from "../../images/hackathon.PNG"
 import snakeGame from "../../images/snake-game.PNG"
 import tomagotchi from "../../images/tomagotchi.PNG"
 import fixYourCode from "../../images/fix-your-code.PNG"
@@ -30,11 +31,24 @@ class Projects1 extends Component {
                     <S.Title>Projects</S.Title>
                 </S.TitleDiv>
                 <S.ProjectContainer className="project">
-                    <S.ProjectImg1 src={Hackathon}></S.ProjectImg1>
+                    <S.ProjectImg1 src={sushiGallery}></S.ProjectImg1>
+                    <S.Container3>
+                        <S.ProjectTitle className="small">Sushi Gallery</S.ProjectTitle>
+                        <S.Languages>Javascript | HTML5 | CSS | ReactJS | Firebase</S.Languages>
+                        <S.ProjectImg2 src={sushiGallery}></S.ProjectImg2>
+                        <S.Description>A website I created for my parent's restaurant, Sushi Gallery. It showcases a menu with images and an about section, along with access to online delivery through food apps such as postmates. To allow my parents to tweak the menu themselves without the need to code, all of the data for the menu comes from a google sheets document. I used an npm package called Tabletop.js, which allows me to send the google sheet document as JSON object for my website to use.</S.Description>
+                        <S.Container4>
+                            <S.NavLink href="https://lukechang24.github.io/Sushi-Gallery/" target="_blank">Live Site</S.NavLink>
+                            <S.NavLink href="https://github.com/lukechang24/Sushi-Gallery" target="_blank">Github</S.NavLink>
+                        </S.Container4>
+                    </S.Container3>
+                </S.ProjectContainer>
+                <S.ProjectContainer className="project left" left>
+                    <S.ProjectImg1 src={hackathon}></S.ProjectImg1>
                     <S.Container3>
                         <S.ProjectTitle className="small">LA Food Policy Council Dashboard</S.ProjectTitle>
                         <S.Languages>ReactJS | NodeJS | Express | MongoDB | ApexCharts</S.Languages>
-                        <S.ProjectImg2 src={Hackathon}></S.ProjectImg2>
+                        <S.ProjectImg2 src={hackathon}></S.ProjectImg2>
                         <S.Description>A project assigned by the LA Food Policy Council at a hackathon hosted by General Assembly that I took part in. My team's goal was to take LA county's health statistics, such as food insecurities, and display them on the website. We worked together with a data scientist who was able to turn the data into a readable format(for the computer), which made it easier for us to allow the users to toggle through different statistics with filters.</S.Description>
                         <S.Container4>
                             <S.NavLink href="https://github.com/moonjason/LAFPC-Hackathon" target="_blank">Github</S.NavLink>
@@ -42,7 +56,7 @@ class Projects1 extends Component {
                     </S.Container3>
                 </S.ProjectContainer>
                 <S.LineBreak></S.LineBreak>
-                <S.ProjectContainer className="project left" left>
+                <S.ProjectContainer className="project">
                     <S.ProjectImg1 src={fixYourCode}></S.ProjectImg1>
                     <S.Container3>
                         <S.ProjectTitle>Fix Your Code</S.ProjectTitle>
@@ -56,7 +70,7 @@ class Projects1 extends Component {
                     </S.Container3>
                 </S.ProjectContainer>
                 <S.LineBreak></S.LineBreak>
-                <S.ProjectContainer className="project">
+                <S.ProjectContainer className="project left" left>
                     <S.ProjectImg1 src={snakeGame}></S.ProjectImg1>
                     <S.Container3>
                         <S.ProjectTitle>Space Snake</S.ProjectTitle>
@@ -69,7 +83,7 @@ class Projects1 extends Component {
                         </S.Container4>
                     </S.Container3>
                 </S.ProjectContainer>
-                <S.ProjectContainer className="project left" left>
+                <S.ProjectContainer className="project">
                     <S.ProjectImg1 src={gameReviews}></S.ProjectImg1>
                     <S.Container3>
                         <S.ProjectTitle>Game Reviews</S.ProjectTitle>
@@ -83,7 +97,7 @@ class Projects1 extends Component {
                     </S.Container3>
                 </S.ProjectContainer>
                 <S.LineBreak></S.LineBreak>
-                <S.ProjectContainer className="project">
+                <S.ProjectContainer className="project left" left>
                     <S.ProjectImg1 src={drawingGame}></S.ProjectImg1>
                     <S.Container3>
                         <S.ProjectTitle>Accurate or Naw</S.ProjectTitle>
@@ -97,7 +111,7 @@ class Projects1 extends Component {
                     </S.Container3>
                 </S.ProjectContainer>
                 <S.LineBreak></S.LineBreak>
-                <S.ProjectContainer className="project left" left>
+                <S.ProjectContainer className="project">
                     <S.ProjectImg1 src={tomagotchi}></S.ProjectImg1>
                     <S.Container3>
                         <S.ProjectTitle>Tomagotchi</S.ProjectTitle>
