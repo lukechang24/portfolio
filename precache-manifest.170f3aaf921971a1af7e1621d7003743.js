@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f145e1e2288cd177dd1449ebf3087186",
+    "revision": "6f1d68b49333cdb7f8008c8f0e556b66",
     "url": "./index.html"
   },
   {
-    "revision": "f4532f2f869e88edf1a6",
+    "revision": "4faf328cfb94b2c2b1d9",
     "url": "./static/css/main.3792aed1.chunk.css"
   },
   {
-    "revision": "a7d153014a08e68eba98",
-    "url": "./static/js/2.fce57183.chunk.js"
+    "revision": "b9d5bdd3e8dff8036a04",
+    "url": "./static/js/2.2f80d98b.chunk.js"
   },
   {
-    "revision": "f4532f2f869e88edf1a6",
-    "url": "./static/js/main.009bbde8.chunk.js"
+    "revision": "4faf328cfb94b2c2b1d9",
+    "url": "./static/js/main.f5eacfa4.chunk.js"
   },
   {
     "revision": "924ba2001053978f33d0",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/logo.3c8309a3.png"
   },
   {
-    "revision": "f6e5f92465aad06a01272b54a4f37550",
-    "url": "./static/media/origami.f6e5f924.jpg"
+    "revision": "6dca7d93a766b6a80b0acc6779d2812c",
+    "url": "./static/media/origamiSmall1.6dca7d93.jpg"
   },
   {
     "revision": "f297dfcd8b3e9215ee862f232d5c9d13",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d74accb46fdd43d5e8590855b47e9bd5",
     "url": "./static/media/snake-game.d74accb4.PNG"
+  },
+  {
+    "revision": "759e34a8cb516ae97ab81c1ed32fa675",
+    "url": "./static/media/sushi-gallery.759e34a8.PNG"
   },
   {
     "revision": "c2452aed23e96fadc1ae1af1e5c22c03",
