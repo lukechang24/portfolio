@@ -43,6 +43,7 @@ class Projects1 extends Component {
                         </S.Container4>
                     </S.Container3>
                 </S.ProjectContainer>
+                <S.LineBreak></S.LineBreak>
                 <S.ProjectContainer className="project left" left>
                     <S.ProjectImg1 src={hackathon}></S.ProjectImg1>
                     <S.Container3>
