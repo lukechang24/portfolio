@@ -38,7 +38,7 @@ class Projects1 extends Component {
                         <S.ProjectImg2 src={sushiGallery}></S.ProjectImg2>
                         <S.Description>A website I created for my parent's restaurant, Sushi Gallery. It showcases a menu with images and an about section, along with access to online delivery through food apps such as postmates. To allow my parents to tweak the menu themselves without the need to code, all of the data for the menu comes from a google sheets document. I used an npm package called Tabletop.js, which allows me to send the google sheet document as JSON object for my website to use.</S.Description>
                         <S.Container4>
-                            <S.NavLink href="https://lukechang24.github.io/Sushi-Gallery/" target="_blank">Live Site</S.NavLink>
+                            <S.NavLink href="https://sushi-gallery.firebaseapp.com/" target="_blank">Live Site</S.NavLink>
                             <S.NavLink href="https://github.com/lukechang24/Sushi-Gallery" target="_blank">Github</S.NavLink>
                         </S.Container4>
                     </S.Container3>
