@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9b9fd76c33ccb94a88d26a98783e29d",
+    "revision": "06d0d45a5e24085dce3e11f4f578d284",
     "url": "./index.html"
   },
   {
-    "revision": "8cfb711efda913f1298b",
+    "revision": "ce0446ab60dcd4cf4b14",
     "url": "./static/css/main.3792aed1.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.2f80d98b.chunk.js"
   },
   {
-    "revision": "8cfb711efda913f1298b",
-    "url": "./static/js/main.2492375e.chunk.js"
+    "revision": "ce0446ab60dcd4cf4b14",
+    "url": "./static/js/main.6ec634b7.chunk.js"
   },
   {
     "revision": "924ba2001053978f33d0",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/snake-game.d74accb4.PNG"
   },
   {
-    "revision": "759e34a8cb516ae97ab81c1ed32fa675",
-    "url": "./static/media/sushi-gallery.759e34a8.PNG"
+    "revision": "9c943e99991eed1f5f9b6a041ddd2fb8",
+    "url": "./static/media/sushi-gallery.9c943e99.PNG"
   },
   {
     "revision": "c2452aed23e96fadc1ae1af1e5c22c03",
