@@ -1,31 +1,33 @@
 {
   "files": {
     "main.css": "./static/css/main.3792aed1.chunk.css",
-    "main.js": "./static/js/main.a78b8bab.chunk.js",
-    "main.js.map": "./static/js/main.a78b8bab.chunk.js.map",
+    "main.js": "./static/js/main.a598a4ba.chunk.js",
+    "main.js.map": "./static/js/main.a598a4ba.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.fc60cfbd.js",
     "runtime-main.js.map": "./static/js/runtime-main.fc60cfbd.js.map",
-    "static/js/2.2f80d98b.chunk.js": "./static/js/2.2f80d98b.chunk.js",
-    "static/js/2.2f80d98b.chunk.js.map": "./static/js/2.2f80d98b.chunk.js.map",
+    "static/js/2.bd58d424.chunk.js": "./static/js/2.bd58d424.chunk.js",
+    "static/js/2.bd58d424.chunk.js.map": "./static/js/2.bd58d424.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.e04c44decee166e71866bb32e5ec71aa.js": "./precache-manifest.e04c44decee166e71866bb32e5ec71aa.js",
+    "precache-manifest.ad7b3738c1338c3eb69595c28a9d0fc4.js": "./precache-manifest.ad7b3738c1338c3eb69595c28a9d0fc4.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.3792aed1.chunk.css.map": "./static/css/main.3792aed1.chunk.css.map",
     "static/media/drawing-game.PNG": "./static/media/drawing-game.b93ce211.PNG",
     "static/media/fix-your-code.PNG": "./static/media/fix-your-code.ce9d7eac.PNG",
     "static/media/game-reviews.PNG": "./static/media/game-reviews.8878f20e.PNG",
+    "static/media/gradient-pattern.jpg": "./static/media/gradient-pattern.63882f70.jpg",
     "static/media/hackathon.PNG": "./static/media/hackathon.5dc1a5be.PNG",
     "static/media/logo.png": "./static/media/logo.3c8309a3.png",
-    "static/media/origamiSmall1.jpg": "./static/media/origamiSmall1.6dca7d93.jpg",
+    "static/media/lukas.png": "./static/media/lukas.31b87b32.png",
     "static/media/react.png": "./static/media/react.f297dfcd.png",
     "static/media/snake-game.PNG": "./static/media/snake-game.d74accb4.PNG",
     "static/media/sushi-gallery.PNG": "./static/media/sushi-gallery.9c943e99.PNG",
-    "static/media/tomagotchi.PNG": "./static/media/tomagotchi.c2452aed.PNG"
+    "static/media/tomagotchi.PNG": "./static/media/tomagotchi.c2452aed.PNG",
+    "static/media/usic.PNG": "./static/media/usic.dfcdf7f1.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.fc60cfbd.js",
-    "static/js/2.2f80d98b.chunk.js",
+    "static/js/2.bd58d424.chunk.js",
     "static/css/main.3792aed1.chunk.css",
-    "static/js/main.a78b8bab.chunk.js"
+    "static/js/main.a598a4ba.chunk.js"
   ]
 }

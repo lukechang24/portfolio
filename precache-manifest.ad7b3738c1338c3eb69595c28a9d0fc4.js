@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08911f9515fd12e3ecef8b5cbce86b5a",
+    "revision": "5f1096e912045898eec3e863cdeb6759",
     "url": "./index.html"
   },
   {
-    "revision": "6b1f556ee71f1d8308be",
+    "revision": "e8a0181d825a2b89bb9e",
     "url": "./static/css/main.3792aed1.chunk.css"
   },
   {
-    "revision": "b9d5bdd3e8dff8036a04",
-    "url": "./static/js/2.2f80d98b.chunk.js"
+    "revision": "7368bf373b28b8d8e3a9",
+    "url": "./static/js/2.bd58d424.chunk.js"
   },
   {
-    "revision": "6b1f556ee71f1d8308be",
-    "url": "./static/js/main.a78b8bab.chunk.js"
+    "revision": "e8a0181d825a2b89bb9e",
+    "url": "./static/js/main.a598a4ba.chunk.js"
   },
   {
     "revision": "924ba2001053978f33d0",
@@ -32,6 +32,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/game-reviews.8878f20e.PNG"
   },
   {
+    "revision": "63882f70258155e7311de23748eaf7a6",
+    "url": "./static/media/gradient-pattern.63882f70.jpg"
+  },
+  {
     "revision": "5dc1a5befdc3aeccdfeb10718254d979",
     "url": "./static/media/hackathon.5dc1a5be.PNG"
   },
@@ -40,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/logo.3c8309a3.png"
   },
   {
-    "revision": "6dca7d93a766b6a80b0acc6779d2812c",
-    "url": "./static/media/origamiSmall1.6dca7d93.jpg"
+    "revision": "31b87b32c994b71a0c9663d5c15f7d13",
+    "url": "./static/media/lukas.31b87b32.png"
   },
   {
     "revision": "f297dfcd8b3e9215ee862f232d5c9d13",
@@ -58,5 +62,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c2452aed23e96fadc1ae1af1e5c22c03",
     "url": "./static/media/tomagotchi.c2452aed.PNG"
+  },
+  {
+    "revision": "dfcdf7f1ce02505bdebd15196c425dc5",
+    "url": "./static/media/usic.dfcdf7f1.PNG"
   }
 ]);
