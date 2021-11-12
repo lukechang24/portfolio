@@ -9,9 +9,11 @@ S.NavBar = styled.div`
     font-family: 'Quicksand', sans-serif;
     background-color: transparent;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     color: white;
 `
+
 S.LogoDiv = styled.div`
     width: 50%;
     margin: 10px 0;
@@ -28,18 +30,18 @@ S.Logo = styled.img`
 `
 
 S.NavLinkDiv = styled.div`
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
+    margin-top: 10px;
+    cursor: pointer;
     @media only screen and (max-width: 550px) {
         display: none;
     }
 `
 
 S.NavLink = styled.a`
+    font-size: 18px;
+    color: white;
     margin: 1rem;
     border-bottom: 0.1rem solid transparent;
-    color: white;
     text-decoration: none;
     transition: 0.3s;
     &:hover {

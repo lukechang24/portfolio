@@ -1,34 +1,33 @@
 import styled from "styled-components"
-import HeadingImg from "../../images/origamiSmall1.jpg"
+import HeadingImg from "../../images/gradient-pattern.jpg"
 
 const S = {}
 
 S.Container1 = styled.div`
-    background: rgba(152, 208, 237) url(${HeadingImg});
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    font-family: 'Didact Gothic', sans-serif;
     display: flex;
-    @media only screen and (max-width: 375px) {
-        align-items: center;
+    background: linear-gradient(270deg, rgba(21,31,39,1) 0%, rgba(27,42,51,1) 100%);
+    justify-content: space-around;
+    align-items: center;
+    color: #D6EFFF;
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
     }
 `
+
 S.IntroDiv = styled.div`
-    font-family: 'Merriweather', serif;    
-    width: 50%;
+    position: relative;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    color: white;
-    margin: 100px 50px 300px;
+    margin: 100px 50px;
     @media only screen and (max-width: 1040px) {
-        width: 80%;
+        width: 90%;
         margin-bottom: 100px;
     }
-    @media only screen and (max-width: 550px) {
-        margin-left: 25px;
+    @media only screen and (max-width: 600px) {
+        margin-bottom: 50px;
     }
 `
 
@@ -48,7 +47,6 @@ S.IntroText1 = styled.h1`
 S.IntroText2 = styled.p`
     font-size: 2.5rem;
     font-weight: 500;
-    color: hsl(200, 100%, 93%);
     @media only screen and (max-width: 1040px) {
         font-size: 30px;
     }
@@ -59,9 +57,31 @@ S.IntroText2 = styled.p`
 
 S.Small = styled.span`
     font-size: 30px;
-    color: hsl(200, 100%, 93%);
     @media only screen and (max-width: 700px) {
         font-size: 20px;
+    }
+`
+
+S.Picture = styled.img`
+    width: 300px;
+    margin-right: 50px;
+    @media only screen and (max-width: 1040px) {
+        width: 200px;
+    }
+    @media only screen and (max-width: 600px) {
+        width: 150px;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+`
+
+S.Decoration = styled.hr`
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+    @media only screen and (max-width: 600px) {
+        display: none;
     }
 `
 

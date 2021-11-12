@@ -10,9 +10,9 @@ const Nav = () => {
     }
     return(
         <S.NavBar>
-            <S.LogoDiv>
+            {/* <S.LogoDiv>
                 <S.Logo src={logo}></S.Logo>
-            </S.LogoDiv>
+            </S.LogoDiv> */}
             <S.NavLinkDiv>
                 <S.NavLink onClick={toAbout}>About</S.NavLink>
                 <S.NavLink href="https://www.linkedin.com/in/lukechang420108/" target="_blank">LinkedIn</S.NavLink>

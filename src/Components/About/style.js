@@ -5,7 +5,8 @@ const S = {};
 S.Container1 = styled.div`
     font-family: 'Merriweather', serif;
     width: 100%;
-    background: linear-gradient(hsl(200, 42%, 60%), hsl(220, 42%, 50%));
+    background-color: #1C2D35;
+    color: #D6EFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,8 +15,7 @@ S.Container1 = styled.div`
 S.Heading = styled.h1`
     font-family: 'Open Sans', sans-serif;
     width: 60%;
-    text-align: left;
-    color: white;
+    text-align: center;
     margin: 40px 0;
     @media only screen and (max-width: 1040px) {
         width: 80%;
@@ -23,14 +23,14 @@ S.Heading = styled.h1`
     @media only screen and (max-width: 550px) {
         width: 90%;
         text-align: center;
-        margin: 20px 0 5px;
+        margin: 20px 0 20px;
     }
 `
 
 S.BrandStatement = styled.p`
     width: 60%;
+    color: hsl(200, 15%, 50%);
     font-size: 25px;
-    color: hsl(205, 100%, 90%);
     text-align: left;
     line-height: 1.75;
     @media only screen and (max-width: 1040px) {
@@ -39,9 +39,10 @@ S.BrandStatement = styled.p`
     @media only screen and (max-width: 800px) {
         font-size: 20px;
     }
-    @media only screen and (max-width: 550px) {
+    @media only screen and (max-width: 400px) {
         width: 90%;
         font-size: 16px;
+        text-align: center;
         line-height: 1.8;
     }
 ` 
@@ -77,7 +78,7 @@ S.Icon = styled.img`
 `
 
 S.IconName = styled.span`
-    color: hsl(205, 100%, 85%);
+    color: hsl(200, 15%, 50%);
     margin-top: 15px;
     @media only screen and (max-width: 1040px) {
         margin-top: 0;
