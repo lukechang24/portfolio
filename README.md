@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Portfolio
+
+Here are some projects I've worked on.
+<a href="http://example.com" target="_blank">https://lukechang24.github.io/portfolio/</a>
+
+
+## Technologies Used
+
+ReactJs, Styled Components
+
+
+
+>>>>>>> e7965623185bee1a79e92a108169225deef10c0e

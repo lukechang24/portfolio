@@ -1,4 +1,19 @@
+<<<<<<< HEAD
 * {
     padding: 0;
     margin: 0;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+>>>>>>> e7965623185bee1a79e92a108169225deef10c0e
