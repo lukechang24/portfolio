@@ -3,7 +3,7 @@ import luke from "../../Images/luke.jpg"
 
 import S from "./style"
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <S.NavContainer>
       <S.ProfileContainer>
@@ -12,10 +12,10 @@ const Navbar = () => {
         </S.ProfileDiv>
       </S.ProfileContainer>
       <S.ButtonsContainer>
-        <S.NavButtons to="/home">HOME</S.NavButtons>
-        <S.NavButtons to="/about">ABOUT</S.NavButtons>
-        <S.NavButtons to="/projects">PROJECTS</S.NavButtons>
-        <S.NavButtons to="/contact">CONTACT</S.NavButtons>
+        <S.NavButtons to="/home" onClick={() => props.setIndex(1)}>HOME</S.NavButtons>
+        <S.NavButtons to="/about" onClick={() => props.setIndex(2)}>ABOUT</S.NavButtons>
+        <S.NavButtons to="/projects" onClick={() => props.setIndex(3)}>PROJECTS</S.NavButtons>
+        <S.NavButtons to="/contact" onClick={() => props.setIndex(4)}>CONTACT</S.NavButtons>
       </S.ButtonsContainer>
     </S.NavContainer>
   );

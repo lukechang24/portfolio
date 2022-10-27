@@ -1,15 +1,6 @@
 import styled, { keyframes } from "styled-components"
 import home from "../../Images/home.jpg"
 
-const slideInFromTop = keyframes`
-    0% {
-        transform: translateY(100%);
-    }
-    100% {
-        transform: translateY(0);
-    }
-`
-
 /* The typing effect */
 const typing = keyframes`
     from { width: 0 }
@@ -26,16 +17,15 @@ const S = {}
 
 S.HomeContainer = styled.div`
     font-family: 'Libre Franklin', sans-serif;
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
     background-color: #273045;
     background-size: cover;
-    background-image: linear-gradient(rgba(39,48,69,0.5), rgba(39,48,69,0.5)), url(${home});
-    animation: 1s ease-out 0s 1 ${slideInFromTop};
-    
+    background-image: linear-gradient(rgba(39,48,69,0.5), rgba(39,48,69,0.5)), url(${home});    
 `
 
 S.Container1 = styled.div`
