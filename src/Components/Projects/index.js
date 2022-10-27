@@ -8,7 +8,7 @@ import S from "./style"
 
 const Projects = () => {
   return (
-    <A.Container 
+    <A.Container1 
         as={motion.div} 
         initial={hidden}
         animate={visible} 
@@ -16,7 +16,7 @@ const Projects = () => {
         transition={{ duration: duration }}
     >
         "hi"
-    </A.Container>
+    </A.Container1>
   );
 }
 

@@ -2,23 +2,28 @@ import styled from "styled-components"
 
 const A = {}
 
-A.Container = styled.div`
-    font-family: 'Libre Franklin', sans-serif;
+A.Container1 = styled.div`
+    font-family: 'Antic Didone', serif;
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     background-color: #232B3D;
+    color: white;
+`
+
+A.Container2 = styled.div`
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    letter-spacing: 1px;
 `
 
 A.Title = styled.h3`
-    width: 100%;
-    max-width: 1000px;
-    color: white;
-    font-size: 32px;
-    font-weight: lighter;
+    color: #B2FFF8;
+    font-size: 36px;
     border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
     padding: 8px 0;
     margin: 32px 0;

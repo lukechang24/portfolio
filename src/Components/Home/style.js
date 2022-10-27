@@ -38,7 +38,7 @@ S.Title = styled.h2`
     font-size: 80px;
     color: white;
     letter-spacing: 2.5px;
-    font-weight: lighter;
+    font-weight: 300;
     margin: 24px 0;
 `
 
@@ -48,7 +48,7 @@ S.Description = styled.h3`
     border-right: .15em solid transparent; /* The typwriter cursor */
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     white-space: nowrap; /* Keeps the content on a single line */
-    letter-spacing: 2px; /* Adjust as needed */
+    letter-spacing: 2.5px; /* Adjust as needed */
     animation: 
     ${typing} 3.5s steps(30, end),
     ${blinkCaret} .5s step-end 12;
@@ -60,7 +60,7 @@ S.Dull = styled.span`
 `
 
 S.Highlight = styled.span`
-    color: #00B9FF;
+    color: #B2FFF8;
     font-weight: 600;
 `
 
