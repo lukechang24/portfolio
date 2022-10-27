@@ -8,7 +8,7 @@ S.AppContainer = styled.div`
     background-color: black;
 `
 
-S.Container = styled.div`
+S.ContentContainer = styled.div`
     position: relative;
     flex-grow: 1;
 `

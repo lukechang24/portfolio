@@ -3,10 +3,11 @@ import { Route, Routes } from "react-router-dom"
 import { motion } from "framer-motion"
 
 import { hidden, visible, exit, duration } from "../../Animations"
+
 import A from "../../Styled/style"
 import S from "./style"
 
-const Projects = () => {
+const About = () => {
   return (
     <A.Container 
         as={motion.div} 
@@ -15,9 +16,9 @@ const Projects = () => {
         exit={exit}
         transition={{ duration: duration }}
     >
-        "hi"
+        <A.Title>About Me.</A.Title>
     </A.Container>
   );
 }
 
-export default Projects;
+export default About;

@@ -38,6 +38,7 @@ S.Title = styled.h2`
     font-size: 80px;
     color: white;
     letter-spacing: 2.5px;
+    font-weight: lighter;
     margin: 24px 0;
 `
 
@@ -56,6 +57,11 @@ S.Description = styled.h3`
 S.Dull = styled.span`
     opacity: 70%;
     color: #BEDCEA;
-` 
+`
+
+S.Highlight = styled.span`
+    color: #00B9FF;
+    font-weight: 600;
+`
 
 export default S

@@ -26,7 +26,7 @@ const Home = (props) => {
       exit={exit}
       transition={{ duration: duration }}
     >
-        <S.Title>LUKE CHANG</S.Title>
+        <S.Title>LUKE <S.Highlight>CHANG</S.Highlight></S.Title>
         <S.Container1>
             <S.Description><S.Dull>I am a</S.Dull> Frontend Developer</S.Description>
         </S.Container1>
