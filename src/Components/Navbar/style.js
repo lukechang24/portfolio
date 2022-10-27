@@ -5,7 +5,7 @@ const S = {};
 
 S.NavContainer = styled.div`
     font-family: 'Kanit', sans-serif;
-    width: 260px;
+    width: 240px;
     height: 100vh;
     display: flex;
     flex-direction: column;

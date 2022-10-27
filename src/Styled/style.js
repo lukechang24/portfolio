@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import S from "../Components/About/style"
 
 const A = {}
 
@@ -7,26 +8,34 @@ A.Container1 = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
     background-color: #232B3D;
     color: white;
 `
 
 A.Container2 = styled.div`
-    width: 80%;
+    max-width: 1040px;
+    width: 90%;
     display: flex;
     flex-direction: column;
-    font-weight: 500;
-    letter-spacing: 1px;
+    margin: 0 auto;
+    @media only screen and (max-width: 600px) {
+        background-color: lightblue;
+    }
 `
 
 A.Title = styled.h3`
     color: #B2FFF8;
     font-size: 36px;
     border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
-    padding: 8px 0;
-    margin: 32px 0;
+    padding: 0 0 8px;
+    margin: 36px 0;
+`
+
+A.Underline = styled.span`
+    font-weight: 700;
+    border-bottom: 1px solid #B2FFF8;
 `
 
 export default A
