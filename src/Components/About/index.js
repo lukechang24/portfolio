@@ -29,9 +29,15 @@ const About = () => {
             <S.Information><A.Underline>Name</A.Underline> : Luke Chang</S.Information>
             <S.Information><A.Underline>Age</A.Underline> : 21 years</S.Information>
             <S.Information><A.Underline>Residence</A.Underline> : Cerritos, CA</S.Information>
-            <S.Information><A.Underline>Email</A.Underline> : lukechang244@gmail.com</S.Information>
+            <S.Information><A.Underline>Email</A.Underline> : fakeaccount@gmail.com</S.Information>
           </S.Container1>
         </S.AboutContainer>
+        <S.LanguageContainer>
+          <S.SubHeading>Languages</S.SubHeading>
+          <A.ColumnDiv>
+            Javascript
+          </A.ColumnDiv>
+        </S.LanguageContainer>
       </A.Container2>
     </A.Container1>
   );

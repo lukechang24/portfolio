@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import S from "../Components/About/style"
 
 const A = {}
 
@@ -8,8 +7,6 @@ A.Container1 = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: flex-start; */
     background-color: #232B3D;
     color: white;
 `
@@ -36,6 +33,12 @@ A.Title = styled.h3`
 A.Underline = styled.span`
     font-weight: 700;
     border-bottom: 1px solid #B2FFF8;
+`
+
+A.ColumnDiv = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `
 
 export default A

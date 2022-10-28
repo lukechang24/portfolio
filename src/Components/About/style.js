@@ -11,8 +11,6 @@ S.AboutContainer = styled.div`
     display: flex;
     margin-right: -16px;
     margin-left: -16px;
-
-    /* justify-content: center; */
 `
 
 S.Container1 = styled.div`
@@ -29,17 +27,21 @@ S.SubHeading = styled.h4`
 `
 
 S.Description = styled.p`
-    font-family: 'Roboto', sans-serif;
     color: #E1E1E1;
     line-height: 1.5;
     margin: 0 0 24px;
 `
 
 S.Information = styled.p`
-    font-family: 'Roboto', sans-serif;
     color: #E1E1E1;
     font-weight: 400;
     margin-bottom: 16px;
+`
+
+S.LanguageContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `
 
 
