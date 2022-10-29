@@ -12,14 +12,12 @@ A.Container1 = styled.div`
 `
 
 A.Container2 = styled.div`
-    max-width: 1040px;
-    width: 90%;
+    /* max-width: 1040px;
+    width: 90%; */
+    width: min(90%, 1040px);
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    @media only screen and (max-width: 600px) {
-        background-color: lightblue;
-    }
 `
 
 A.Title = styled.h3`

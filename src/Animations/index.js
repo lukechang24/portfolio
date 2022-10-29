@@ -12,7 +12,7 @@ export const visible = {
 }
 
 export const exit = {
-    y: -window.innerHeight,
+    y: -window.innerHeight + window.innerHeight/10,
     opacity: 0,
 }
 

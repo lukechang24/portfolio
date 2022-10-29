@@ -32,12 +32,12 @@ const About = () => {
             <S.Information><A.Underline>Email</A.Underline> : fakeaccount@gmail.com</S.Information>
           </S.Container1>
         </S.AboutContainer>
-        <S.LanguageContainer>
-          <S.SubHeading>Languages</S.SubHeading>
+        <S.SubHeading>Languages</S.SubHeading>
+        {/* <S.LanguageContainer> */}
           <A.ColumnDiv>
             Javascript
           </A.ColumnDiv>
-        </S.LanguageContainer>
+        {/* </S.LanguageContainer> */}
       </A.Container2>
     </A.Container1>
   );

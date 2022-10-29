@@ -5,7 +5,7 @@ const S = {};
 
 S.NavContainer = styled.div`
     font-family: 'Kanit', sans-serif;
-    width: 240px;
+    width: 200px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@ S.NavButtons = styled(NavLink)`
         background: rgba(3,127,255,.2);
         content: "";
         visibility: hidden;
-        transition: width .4s ease-out;
+        transition: width .4s cubic-bezier(.65,0,.36,1);
         z-index: -1;
     }
     &:hover {
