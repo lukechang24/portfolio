@@ -60,7 +60,7 @@ S.Dull = styled.span`
 `
 
 S.Highlight = styled.span`
-    color: #B2FFF8;
+    color: var(--main-blue);
     font-weight: 600;
 `
 

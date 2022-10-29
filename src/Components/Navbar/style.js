@@ -5,12 +5,15 @@ const S = {};
 
 S.NavContainer = styled.div`
     font-family: 'Kanit', sans-serif;
-    width: 200px;
+    position: fixed;
+    
+    width: var(--nav-width);
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: rgb(25,29,43);
+    z-index: 10;
 `
 S.ProfileContainer = styled.div`
     width: 100%;

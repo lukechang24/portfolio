@@ -5,7 +5,7 @@ const A = {}
 A.Container1 = styled.div`
     font-family: 'Antic Didone', serif;
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     display: flex;
     background-color: #232B3D;
     color: white;
@@ -21,7 +21,7 @@ A.Container2 = styled.div`
 `
 
 A.Title = styled.h3`
-    color: #B2FFF8;
+    color: var(--main-blue);;
     font-size: 36px;
     border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
     padding: 0 0 8px;
@@ -30,7 +30,7 @@ A.Title = styled.h3`
 
 A.Underline = styled.span`
     font-weight: 700;
-    border-bottom: 1px solid #B2FFF8;
+    border-bottom: 1px solid var(--main-blue);;
 `
 
 A.ColumnDiv = styled.div`

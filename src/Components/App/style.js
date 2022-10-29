@@ -11,6 +11,7 @@ S.AppContainer = styled.div`
 S.ContentContainer = styled.div`
     position: relative;
     flex-grow: 1;
+    margin-left: var(--nav-width);
 `
 
 export default S;

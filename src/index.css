@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+:root {
+  --main-blue: #B2FFF8;
+  --nav-width: 200px;
+}
+
 p {
   font-family: 'Roboto', sans-serif;
 }

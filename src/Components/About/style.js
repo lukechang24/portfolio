@@ -3,7 +3,7 @@ import styled, { keyframes } from "styled-components"
 const S = {}
 
 S.Title = styled.h3`
-    color: #00B9FF;
+    color: var(--main-blue);
     font-size: 32px;
 `
 
@@ -12,16 +12,18 @@ S.AboutContainer = styled.div`
     flex-wrap: wrap;
     margin-right: -16px;
     margin-left: -16px;
+    margin-bottom: 70px;
 `
 
 S.Container1 = styled.div`
     display: flex;
-    flex: ${props => props.bigger ? "0 0 66.667%" : "0 1 auto"};
+    flex: ${props => props.flex ? props.flex : "0 1 auto"};
     flex-direction: column;
     align-items: flex-start;
     padding: 0 16px;
     @media only screen and (max-width: 990px) {
-        width: ${props => props.bigger ? "100%" : "auto"};
+        flex: 0 1 auto;
+        width: ${props => props.width ? props.width : "auto"};
     }
 `
 
