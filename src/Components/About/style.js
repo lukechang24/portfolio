@@ -9,10 +9,12 @@ S.Title = styled.h3`
 
 S.AboutContainer = styled.div`
     display: flex;
-    flex-wrap: wrap;
     margin-right: -16px;
     margin-left: -16px;
     margin-bottom: 70px;
+    @media only screen and (max-width: 1150px) {
+        flex-wrap: wrap;
+    }
 `
 
 S.Container1 = styled.div`
@@ -21,7 +23,7 @@ S.Container1 = styled.div`
     flex-direction: column;
     align-items: flex-start;
     padding: 0 16px;
-    @media only screen and (max-width: 990px) {
+    @media only screen and (max-width: 1150px) {
         flex: 0 1 auto;
         width: ${props => props.width ? props.width : "auto"};
     }

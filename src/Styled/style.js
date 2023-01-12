@@ -3,7 +3,6 @@ import styled from "styled-components"
 const A = {}
 
 A.Container1 = styled.div`
-    font-family: 'Antic Didone', serif;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -21,16 +20,17 @@ A.Container2 = styled.div`
 `
 
 A.Title = styled.h3`
+    font-family: 'Antic Didone', serif;
     color: var(--main-blue);;
     font-size: 36px;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     padding: 0 0 8px;
     margin: 36px 0;
 `
 
 A.Underline = styled.span`
     font-weight: 700;
-    border-bottom: 1px solid var(--main-blue);;
+    border-bottom: 1px solid var(--main-blue);
 `
 
 A.ColumnDiv = styled.div`

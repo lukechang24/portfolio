@@ -28,7 +28,7 @@ const Home = (props) => {
     >
         <S.Title>LUKE <S.Highlight>CHANG</S.Highlight></S.Title>
         <S.Container1>
-            <S.Description><S.Dull>I am a</S.Dull> Frontend Developer</S.Description>
+            <S.Description>Frontend Developer</S.Description>
         </S.Container1>
 
     </S.HomeContainer>

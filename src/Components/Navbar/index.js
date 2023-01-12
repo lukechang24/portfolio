@@ -8,15 +8,16 @@ const Navbar = (props) => {
     <S.NavContainer>
       <S.ProfileContainer>
         <S.ProfileDiv>
-          <S.ProfileImg src={luke}></S.ProfileImg>
+          <S.ProfileImg src="https://images.pexels.com/photos/179237/pexels-photo-179237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></S.ProfileImg>
+          {/* <S.ProfileImg src={luke}></S.ProfileImg> */}
         </S.ProfileDiv>
       </S.ProfileContainer>
-      <S.ButtonsContainer>
-        <S.NavButtons to="/home" onClick={() => props.setIndex(1)}>HOME</S.NavButtons>
-        <S.NavButtons to="/about" onClick={() => props.setIndex(2)}>ABOUT</S.NavButtons>
-        <S.NavButtons to="/projects" onClick={() => props.setIndex(3)}>PROJECTS</S.NavButtons>
-        <S.NavButtons to="/contact" onClick={() => props.setIndex(4)}>CONTACT</S.NavButtons>
-      </S.ButtonsContainer>
+      <S.LinksContainer>
+        <S.NavLink to="/home" onClick={() => props.setIndex(1)}>HOME</S.NavLink>
+        <S.NavLink to="/about" onClick={() => props.setIndex(2)}>ABOUT</S.NavLink>
+        <S.NavLink to="/projects" onClick={() => props.setIndex(3)}>PROJECTS</S.NavLink>
+        <S.NavLink to="/contact" onClick={() => props.setIndex(4)}>CONTACT</S.NavLink>
+      </S.LinksContainer>
     </S.NavContainer>
   );
 }

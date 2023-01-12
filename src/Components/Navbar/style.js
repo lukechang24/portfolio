@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const S = {};
 
-S.NavContainer = styled.div`
+S.NavContainer = styled.header`
     font-family: 'Kanit', sans-serif;
     position: fixed;
     
@@ -34,7 +34,7 @@ S.ProfileImg = styled.img`
     border-radius: 50%;
 `
 
-S.ButtonsContainer = styled.div`
+S.LinksContainer = styled.div`
     box-sizing: border-box;
     width: 100%;
     display: flex;
@@ -44,7 +44,7 @@ S.ButtonsContainer = styled.div`
     margin: 0 0 85%;
 `
 
-S.NavButtons = styled(NavLink)`
+S.NavLink = styled(NavLink)`
     position: relative;
     color: #A4ACC4;
     font-size: 18px;
