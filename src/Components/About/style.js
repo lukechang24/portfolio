@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import styled, { keyframes } from "styled-components"
 
 const S = {}
@@ -10,28 +11,18 @@ S.AboutContainer = styled.div`
     margin: 0 auto;
 `
 
-S.Title = styled.h1`
-    /* font-family: 'Jost', sans-serif; */
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    text-align: center;
-    margin-bottom: 24px;
-`
-
 S.About = styled.p`
     font-family: 'Quicksand', sans-serif;
     color: white;
     font-size: 12px;
-    font-weight: lighter;
+    font-weight: 400;
     line-height: 0.85rem;
     letter-spacing: 0.5px;
     margin-bottom: 12px;
-    /* -webkit-hyphens: auto;
+    -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
-    hyphens: auto; */
+    hyphens: auto;
 `
 
 S.ProfilePic = styled.img`
@@ -40,10 +31,27 @@ S.ProfilePic = styled.img`
 `
 
 S.Location = styled.div`
-    /* font-family: 'Jost', sans-serif; */
     font-size: 12px;
-    font-weight: lighter;
+    font-weight: 400;
     line-height: 1.3rem;
+`
+
+S.ResumeContainer = styled.a`
+    display: flex;
+    align-items: flex-end;
+`
+
+S.Resume = styled.div`
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+`
+
+S.Icon = styled.img`
+    width: 16px;
+    margin-left: 6px;
 `
 
 S.SocialContainer = styled.div`

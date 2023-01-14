@@ -1,8 +1,0 @@
-export const Javascript = require("./javascript.png")
-export const HTML5 = require("./html5.png")
-export const CSS3 = require("./css3.png")
-export const ReactJS = require("./react.png")
-export const NodeJS = require("./nodejs.png")
-export const MongoDB = require("./mongodb.png")
-export const Firebase = require("./firebase.png")
-export const Github = require("./github.png")

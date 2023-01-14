@@ -22,6 +22,16 @@ A.Container2 = styled.div`
     margin: 0 auto;
 `
 
+A.Title = styled.h1`
+    /* font-family: 'Jost', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 24px;
+`
+
 A.Bold = styled.span`
     font-family: 'Roboto', sans-serif;
     font-weight: 700 !important;
@@ -32,7 +42,7 @@ A.Dull = styled.span`
 `
 
 A.Blue = styled.span`
-    color: #9ab6e4;
+    color: var(--main-blue);
 `
 
 A.Underline = styled.span`
@@ -42,14 +52,16 @@ A.Underline = styled.span`
 
 A.RowDiv = styled.div`
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: ${props => props.justifyContent ? props.justifyContent : "normal"};
+    align-items: ${props => props.alignItems ? props.alignItems : "normal"};
 `
 
 A.ColumnDiv = styled.div`
+    height: 75px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: ${props => props.justifyContent ? props.justifyContent : "normal"};
+    align-items: ${props => props.alignItems ? props.alignItems : "normal"};
 `
 
 export default A

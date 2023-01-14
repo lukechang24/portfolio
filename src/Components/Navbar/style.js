@@ -37,40 +37,11 @@ S.NavLink = styled(NavLink)`
     padding: 8px 0;
     margin: 10px 0;
     &:hover {
-        color: #9ab6e4;
+        color: var(--main-blue);
     }
     &.active {
-        color: #9ab6e4;
+        color: var(--main-blue);
     }
-    /* z-index: 1;
-    &:before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 100%;
-        width: 0;
-        height: 100%;
-        background: rgba(3,127,255,.2);
-        content: "";
-        visibility: hidden;
-        transition: width .4s cubic-bezier(.65,0,.36,1);
-        z-index: -1;
-    }
-    &:hover {
-        color: #4084f0;
-        &:before {
-            width: 100%;
-            visibility: visible;
-        }
-    }
-    &.active {
-        color: white;
-        &:before {
-            width: 100%;
-            background-color: #0f52ba;
-            visibility: visible;
-        }
-    } */
 `
 
 S.TitleContainer = styled.div`
@@ -85,6 +56,7 @@ S.Name = styled.h1`
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Roboto', sans-serif;
     font-size: 54px;
+    font-weight: 900;
     margin-bottom: 18px;
 `
 
