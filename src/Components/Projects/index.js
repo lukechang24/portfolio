@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom"
 import { motion } from "framer-motion"
 
 import { hidden, visible, exit, duration } from "../../Animations"
-import A from "../../Styled/style"
+import A from "../../Global/styled"
 import S from "./style"
 
 const Projects = () => {

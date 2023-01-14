@@ -7,12 +7,12 @@ export const visible = {
     opacity: 1,
     position: "absolute",
     transition: {
-        delay: 0.2
+        delay: 0.4
     }
 }
 
 export const exit = {
-    y: -window.innerHeight + window.innerHeight/10,
+    // y: -window.innerHeight + window.innerHeight/10,
     opacity: 0,
 }
 

@@ -16,16 +16,13 @@ const blinkCaret = keyframes`
 const S = {}
 
 S.HomeContainer = styled.div`
-    font-family: 'Libre Franklin', sans-serif;
     width: 100%;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #273045;
+    background-color: black;
     background-size: cover;
-    background-image: linear-gradient(rgba(39,48,69,0.5), rgba(39,48,69,0.5)), url(${home});    
+    background-position: center 30%;
+    /* background-image: linear-gradient(rgba(39,48,69,0.5), rgba(39,48,69,0.5)), url(${home});     */
+    background-image: url(${home});    
 `
 
 S.Container1 = styled.div`

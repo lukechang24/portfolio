@@ -4,34 +4,19 @@ import { NavLink } from "react-router-dom";
 const S = {};
 
 S.NavContainer = styled.header`
-    font-family: 'Kanit', sans-serif;
+    position: relative;
+    /* font-family: 'Sofia Sans Extra Condensed', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     position: fixed;
-    
     width: var(--nav-width);
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    background-color: rgb(25,29,43);
-    z-index: 10;
-`
-S.ProfileContainer = styled.div`
-    width: 100%;
-    display: flex;
     justify-content: center;
-    border-bottom: 1.5px solid #2E344E;
-`
-
-S.ProfileDiv = styled.div`
-    width: 180px;
-    padding: 25px 0;
-`
-
-S.ProfileImg = styled.img`
-    box-sizing: border-box;
-    width: 100%;
-    border: 5px solid #2E344E;
-    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 0 4rem;
+    z-index: 10;
 `
 
 S.LinksContainer = styled.div`
@@ -40,20 +25,24 @@ S.LinksContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 15px 5px;
-    margin: 0 0 85%;
+    padding: 15px 0;
 `
 
 S.NavLink = styled(NavLink)`
     position: relative;
-    color: #A4ACC4;
+    color: white;
     font-size: 18px;
-    text-align: center;
+    font-weight: 600;
     text-decoration: none;
-    letter-spacing: 1px;
     padding: 8px 0;
-    margin: 5px 0;
-    z-index: 1;
+    margin: 10px 0;
+    &:hover {
+        color: #9ab6e4;
+    }
+    &.active {
+        color: #9ab6e4;
+    }
+    /* z-index: 1;
     &:before {
         position: absolute;
         top: 0;
@@ -81,7 +70,30 @@ S.NavLink = styled(NavLink)`
             background-color: #0f52ba;
             visibility: visible;
         }
-    }
+    } */
+`
+
+S.TitleContainer = styled.div`
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0 48px;
+`
+
+S.Name = styled.h1`
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 54px;
+    margin-bottom: 18px;
+`
+
+S.Title = styled.h3`
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    letter-spacing: 6px;
+    opacity: 0.8;
 `
 
 export default S;

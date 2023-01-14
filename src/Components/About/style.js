@@ -2,57 +2,62 @@ import styled, { keyframes } from "styled-components"
 
 const S = {}
 
-S.Title = styled.h3`
-    color: var(--main-blue);
-    font-size: 32px;
-`
-
 S.AboutContainer = styled.div`
+    font-family: 'Quicksand', sans-serif;
     display: flex;
-    margin-right: -16px;
-    margin-left: -16px;
-    margin-bottom: 70px;
-    @media only screen and (max-width: 1150px) {
-        flex-wrap: wrap;
-    }
-`
-
-S.Container1 = styled.div`
-    display: flex;
-    flex: ${props => props.flex ? props.flex : "0 1 auto"};
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0 16px;
-    @media only screen and (max-width: 1150px) {
-        flex: 0 1 auto;
-        width: ${props => props.width ? props.width : "auto"};
-    }
+    width: 450px;
+    margin: 0 auto;
 `
 
-S.SubHeading = styled.h4`
-    font-size: 24px;
+S.Title = styled.h1`
+    /* font-family: 'Jost', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 3px;
     text-align: center;
-    margin: 0 0 24px;
+    margin-bottom: 24px;
 `
 
-S.Description = styled.p`
-    color: #E1E1E1;
-    line-height: 1.5;
-    margin: 0 0 24px;
+S.About = styled.p`
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 0.85rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    /* -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto; */
 `
 
-S.Information = styled.p`
-    color: #E1E1E1;
-    font-weight: 400;
-    margin-bottom: 16px;
+S.ProfilePic = styled.img`
+    width: 75px;
+    height: 75px;
 `
 
-S.LanguageContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+S.Location = styled.div`
+    /* font-family: 'Jost', sans-serif; */
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 1.3rem;
 `
 
+S.SocialContainer = styled.div`
+    margin: 0 auto;
+`
 
+S.Link = styled.a`
+    text-decoration: none;
+    color: white;
+`
+
+S.SocialMedia = styled.i`
+    font-size: 24px;
+    margin: 32px 6px 0;
+`
 
 export default S

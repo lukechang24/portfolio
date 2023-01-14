@@ -26,11 +26,6 @@ const Home = (props) => {
       exit={exit}
       transition={{ duration: duration }}
     >
-        <S.Title>LUKE <S.Highlight>CHANG</S.Highlight></S.Title>
-        <S.Container1>
-            <S.Description>Frontend Developer</S.Description>
-        </S.Container1>
-
     </S.HomeContainer>
   );
 }
