@@ -34,9 +34,9 @@ const Contact = () => {
       <S.ContactContainer>
         <A.Title>Let's get in touch.</A.Title>
         <S.ContactForm ref={form} onSubmit={sendEmail}>
-          <S.Input type="text" name="from_name" placeholder="Name..." />
-          <S.Input type="email" name="from_email" placeholder="Email..." />
-          <S.Textarea name="message" placeholder="Message..." />
+          <S.Input type="text" name="from_name" placeholder="Name..." required />
+          <S.Input type="email" name="from_email" placeholder="Email..." required />
+          <S.Textarea name="message" placeholder="Message..." required />
           <S.Submit show={show} type="submit" value="SUBMIT">SUBMIT</S.Submit>
           <S.Sent show={show}>SENT!</S.Sent>
         </S.ContactForm>

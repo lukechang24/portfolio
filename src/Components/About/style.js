@@ -16,13 +16,10 @@ S.About = styled.p`
     color: white;
     font-size: 12px;
     font-weight: 400;
+    text-align: justify;
     line-height: 0.85rem;
     letter-spacing: 0.5px;
     margin-bottom: 12px;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
 `
 
 S.ProfilePic = styled.img`
