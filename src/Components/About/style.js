@@ -8,7 +8,6 @@ S.AboutContainer = styled.div`
     display: flex;
     flex-direction: column;
     width: 450px;
-    margin: 0 auto;
 `
 
 S.About = styled.p`
