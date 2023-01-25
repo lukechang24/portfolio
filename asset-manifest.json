@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.3792aed1.chunk.css",
-    "main.js": "./static/js/main.539f068a.chunk.js",
-    "main.js.map": "./static/js/main.539f068a.chunk.js.map",
+    "main.js": "./static/js/main.485dca88.chunk.js",
+    "main.js.map": "./static/js/main.485dca88.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.fc60cfbd.js",
     "runtime-main.js.map": "./static/js/runtime-main.fc60cfbd.js.map",
     "static/js/2.81522cb0.chunk.js": "./static/js/2.81522cb0.chunk.js",
     "static/js/2.81522cb0.chunk.js.map": "./static/js/2.81522cb0.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.88dac4f76a8492f9e419d6c2c349a7dc.js": "./precache-manifest.88dac4f76a8492f9e419d6c2c349a7dc.js",
+    "precache-manifest.180bd1ed4cd392ed68e312caff4cc2e4.js": "./precache-manifest.180bd1ed4cd392ed68e312caff4cc2e4.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.3792aed1.chunk.css.map": "./static/css/main.3792aed1.chunk.css.map",
     "static/media/Luke-Chang-Resume.pdf": "./static/media/Luke-Chang-Resume.14607f04.pdf",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.fc60cfbd.js",
     "static/js/2.81522cb0.chunk.js",
     "static/css/main.3792aed1.chunk.css",
-    "static/js/main.539f068a.chunk.js"
+    "static/js/main.485dca88.chunk.js"
   ]
 }
