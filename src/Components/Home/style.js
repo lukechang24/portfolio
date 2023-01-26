@@ -16,13 +16,16 @@ const blinkCaret = keyframes`
 const S = {}
 
 S.HomeContainer = styled.div`
-    width: 100%;
-    min-height: 100vh;
-    background-color: black;
-    background-size: cover;
-    background-position: center 30%;
-    /* background-image: linear-gradient(rgba(39,48,69,0.5), rgba(39,48,69,0.5)), url(${home});     */
-    background-image: url(${home});    
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  background-size: cover;
+  background-position: center 30%;
+  /* background-image: linear-gradient(rgba(39,48,69,0.5), rgba(39,48,69,0.5)), url(${home});     */
+  background-image: url(${home});
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
 `
 
 S.Container1 = styled.div`

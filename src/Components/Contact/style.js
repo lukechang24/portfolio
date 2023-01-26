@@ -12,6 +12,9 @@ S.ContactForm = styled.form`
   width: 450px;
   display: flex;
   flex-direction: column;
+  @media only screen and (max-width: 500px) {
+    width: 350px;
+  }
 `
 
 S.Input = styled.input`
@@ -82,6 +85,10 @@ S.Icon = styled.i`
   color: white;
   font-size: 24px;
   margin: 0 16px;
+  @media only screen and (max-width: 500px) {
+    font-size: 16px;
+    margin: 0 10px;
+  }
 `
 
 export default S

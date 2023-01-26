@@ -1,6 +1,8 @@
-import React from "react"
+import React, { useState } from "react"
 import { Route, Routes } from "react-router-dom"
 import { motion } from "framer-motion"
+
+import Modal from "./Modal"
 
 import { hidden, visible, exit, duration } from "../../Animations"
 import sushi from "../../Images/sushi.webp"
@@ -12,13 +14,20 @@ import A from "../../Global/styled"
 import S from "./style"
 
 const Projects = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [modalIndex, setModalIndex] = useState(null);
+  const handleModal = async (e) => {
+    const index = e.currentTarget.dataset.index;
+    await setModalIndex(index);
+    await setShowModal(true);
+  }
   return (
     <A.Container1 
-        as={motion.div} 
-        initial={hidden}
-        animate={visible} 
-        exit={exit}
-        transition={{ duration: duration }}
+      as={motion.div} 
+      initial={hidden}
+      animate={visible} 
+      exit={exit}
+      transition={{ duration: duration }}
     >
       <S.Grid>
         <S.Project url={sushi}>
@@ -30,10 +39,11 @@ const Projects = () => {
               <S.Link href="https://sushi-gallery.firebaseapp.com/menu" target="_blank">Live Site</S.Link>
               <S.Link href="https://github.com/lukechang24/Sushi-Gallery" target="_blank">Github</S.Link>
             </S.LinkContainer>
+            <S.FullScreen className="fa-solid fa-expand" data-index={0} onClick={handleModal}></S.FullScreen>
           </S.ProjectInfo>
           <S.Overlay></S.Overlay>
         </S.Project>
-        <S.Project url={drawing}>
+        <S.Project url={drawing} dark>
           <S.ProjectInfo>
             <S.Title>Accurate or Nah</S.Title>
             <S.Languages>Javascript | React | Firebase</S.Languages>
@@ -42,10 +52,11 @@ const Projects = () => {
               <S.Link href="https://capstone-ab1a2.firebaseapp.com/lobby" target="_blank">Live Site</S.Link>
               <S.Link href="https://github.com/lukechang24/Accurate-or-Naw" target="_blank">Github</S.Link>
             </S.LinkContainer>
+            <S.FullScreen className="fa-solid fa-expand" data-index={1} onClick={handleModal}></S.FullScreen>
           </S.ProjectInfo>
           <S.Overlay></S.Overlay>
         </S.Project>
-        <S.Project url={hackathon}>
+        <S.Project url={hackathon} dark>
           <S.ProjectInfo>
             <S.Title>Hackathon</S.Title>
             <S.Languages>Javascript | React | Firebase</S.Languages>
@@ -53,19 +64,23 @@ const Projects = () => {
             <S.LinkContainer>
               <S.Link href="https://github.com/moonjason/LAFPC-Hackathon" target="_blank">Github</S.Link>
             </S.LinkContainer>
+            <S.FullScreen className="fa-solid fa-expand" data-index={2} onClick={handleModal}></S.FullScreen>
           </S.ProjectInfo>
-          <S.Overlay></S.Overlay>
+          <S.Overlay dark></S.Overlay>
         </S.Project>
         <S.Project url={usic}>
           <S.ProjectInfo>
             <S.Title>Usic</S.Title>
             <S.Languages>Javascript | React | Redux</S.Languages>
             <S.Description>A website dedicated to helping record labels find unsigned artist. I worked as a freelance software engineer to help implement new features, fix bugs, and organize the general codebase. Redux was used all throughout this project, as it made state management much easier with all the information that needed to be passed through the components.</S.Description>
+            <S.FullScreen className="fa-solid fa-expand" data-index={3} onClick={handleModal}></S.FullScreen>
           </S.ProjectInfo>
           <S.Overlay></S.Overlay>
         </S.Project>
         <S.Arrow className="fa-solid fa-caret-right"></S.Arrow>
+        <S.Arrow left className="fa-solid fa-caret-left"></S.Arrow>
       </S.Grid>
+      <Modal modalIndex={modalIndex} showModal={showModal} setShowModal={setShowModal} />
     </A.Container1>
   );
 }

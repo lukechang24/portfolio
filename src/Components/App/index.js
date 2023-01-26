@@ -3,6 +3,7 @@ import { Route, Routes, Navigate, useLocation } from "react-router-dom"
 import { AnimatePresence } from "framer-motion"
 
 import Navbar from "../Navbar"
+import NavMini from "../Navbar/NavMini"
 import Home from "../Home"
 import About from "../About"
 import Projects from "../Projects"
@@ -11,12 +12,13 @@ import S from "./style"
 
 const App = () => {
   const location = useLocation()
-  const [index, setIndex] = useState(0) 
-  const [transitionUp, setTransitionUp] = useState(false)
+  // const [index, setIndex] = useState(0) 
+  // const [transitionUp, setTransitionUp] = useState(false)
   
   return (
     <S.AppContainer className="App">
-      <Navbar setIndex={setIndex}/>
+      <Navbar location={location}/>
+      <NavMini location={location}/>
       <S.ContentContainer>
         <AnimatePresence initial={false}>
             <Routes location={location} key={location.pathname}>

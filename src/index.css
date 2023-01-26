@@ -12,3 +12,9 @@
 p {
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+@media only screen and (max-width: 900px) {
+  :root {
+    --nav-width: 28%;
+  }
+}
