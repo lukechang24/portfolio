@@ -12,8 +12,6 @@ import S from "./style"
 
 const App = () => {
   const location = useLocation()
-  // const [index, setIndex] = useState(0) 
-  // const [transitionUp, setTransitionUp] = useState(false)
   
   return (
     <S.AppContainer className="App">

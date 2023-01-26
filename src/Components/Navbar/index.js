@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 
 import S from "./style"
 
-const Navbar = (props) => {
+const Navbar = () => {
   return (
     <S.NavContainer>
       <S.LinksContainer>
