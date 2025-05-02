@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/lukechang24/portfolio3/static/css/main.098fbfc3.css",
+    "main.js": "/lukechang24/portfolio3/static/js/main.933b4b05.js",
+    "static/js/787.128fc6e9.chunk.js": "/lukechang24/portfolio3/static/js/787.128fc6e9.chunk.js",
+    "static/media/sushi.PNG": "/lukechang24/portfolio3/static/media/sushi.3173c00ff0300fde13fb.PNG",
+    "static/media/home.jpg": "/lukechang24/portfolio3/static/media/home.825bd180162b0d2c5bac.jpg",
+    "static/media/usic.PNG": "/lukechang24/portfolio3/static/media/usic.c8c099978b80fade905e.PNG",
+    "static/media/sushi.webp": "/lukechang24/portfolio3/static/media/sushi.c5c8783eb3c16bae4440.webp",
+    "static/media/usic.webp": "/lukechang24/portfolio3/static/media/usic.3a57aaceda1e08bb281e.webp",
+    "static/media/Luke-Chang-Resume.pdf": "/lukechang24/portfolio3/static/media/Luke-Chang-Resume.a204fb0cd33d1340f101.pdf",
+    "static/media/drawing.PNG": "/lukechang24/portfolio3/static/media/drawing.2577ddb4cec721e069ac.PNG",
+    "static/media/headshot.jpg": "/lukechang24/portfolio3/static/media/headshot.b3e3cfe666d3917660d0.jpg",
+    "static/media/hackathon.PNG": "/lukechang24/portfolio3/static/media/hackathon.e17a52ba38fda451ba2f.PNG",
+    "static/media/drawing.webp": "/lukechang24/portfolio3/static/media/drawing.47be9b0edbf52f12d0a0.webp",
+    "static/media/hackathon.webp": "/lukechang24/portfolio3/static/media/hackathon.c931b1a4d7064be25c2f.webp",
+    "static/media/download.png": "/lukechang24/portfolio3/static/media/download.2d26fa6eb4d5db882f5d.png",
+    "index.html": "/lukechang24/portfolio3/index.html",
+    "main.098fbfc3.css.map": "/lukechang24/portfolio3/static/css/main.098fbfc3.css.map",
+    "main.933b4b05.js.map": "/lukechang24/portfolio3/static/js/main.933b4b05.js.map",
+    "787.128fc6e9.chunk.js.map": "/lukechang24/portfolio3/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.098fbfc3.css",
+    "static/js/main.933b4b05.js"
+  ]
+}
