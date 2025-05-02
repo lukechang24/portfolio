@@ -1,5 +1,6 @@
 import styled, { keyframes } from "styled-components"
 import home from "../../Images/home.jpg"
+import luke from "../../Images/headshot.jpg"
 
 /* The typing effect */
 const typing = keyframes`
@@ -7,7 +8,7 @@ const typing = keyframes`
     to { width: 100% }
 `
 
-  /* The typewriter cursor effect */
+/* The typewriter cursor effect */
 const blinkCaret = keyframes`
     from, to { border-color: transparent }
     50% { border-color: white; }
@@ -22,7 +23,7 @@ S.HomeContainer = styled.div`
   background-size: cover;
   background-position: center 30%;
   /* background-image: linear-gradient(rgba(39,48,69,0.5), rgba(39,48,69,0.5)), url(${home});     */
-  background-image: url(${home});
+  background-image: url(${luke});
   @media only screen and (max-width: 800px) {
     display: none;
   }

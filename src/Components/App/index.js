@@ -1,6 +1,7 @@
-import React, { useState } from "react"
-import { Route, Routes, Navigate, useLocation } from "react-router-dom"
+import React, { useEffect, useState } from "react"
+import { Route, Routes, Navigate, useLocation, useNavigate } from "react-router-dom"
 import { AnimatePresence } from "framer-motion"
+import { throttle } from 'throttle-debounce'
 
 import Navbar from "../Navbar"
 import NavMini from "../Navbar/NavMini"
@@ -12,7 +13,24 @@ import S from "./style"
 
 const App = () => {
   const location = useLocation()
-  
+  const navigate = useNavigate()
+  const links = ["/home", "/about", "/projects", "/contact"]
+  const [index, setIndex] = useState(0)
+  const throttleScroll = throttle(150, e => {
+    if (e.deltaY < 0 && index !== 0) {
+      setIndex(index - 1)
+    } else if (e.deltaY > 0 && index !== 3) {
+      setIndex(index + 1)
+    }
+    navigate(links[index])
+  })
+  useEffect(() => {
+    window.addEventListener("wheel", throttleScroll)
+    return () => window.removeEventListener("wheel", throttleScroll)
+  }, [index])
+  useEffect(() => {
+    setIndex(links.indexOf(location.pathname))
+  }, [location.pathname])
   return (
     <S.AppContainer className="App">
       <Navbar location={location}/>

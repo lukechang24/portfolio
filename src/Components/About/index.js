@@ -2,7 +2,7 @@ import React from "react"
 import { Route, Routes } from "react-router-dom"
 import { motion } from "framer-motion"
 
-import luke from "../../Images/luke-square1.jpeg"
+import luke from "../../Images/headshot.jpg"
 import download from "../../Icons/download.png"
 import resume from "./Luke-Chang-Resume.pdf"
 import { hidden, visible, exit, duration } from "../../Animations"
@@ -12,12 +12,12 @@ import S from "./style"
 
 const About = () => {
   return (
-    <A.Container1 
-        as={motion.div} 
-        initial={hidden}
-        animate={visible} 
-        exit={exit}
-        transition={{ duration: duration }}
+    <A.Container1
+      as={motion.div}
+      initial={hidden}
+      animate={visible}
+      exit={exit}
+      transition={{ duration: duration }}
     >
       <S.AboutContainer>
         <A.Title>Hi, I'm Luke.</A.Title>
@@ -26,13 +26,13 @@ const About = () => {
         <S.About><A.Blue>Please take a look at my portfolio to see some of my past projects and feel free to contact me if you have any questions or would like to discuss a project further.</A.Blue></S.About>
         <A.RowDiv justifyContent="space-between">
           <A.ColumnDiv justifyContent="space-between">
-            <S.Location><A.Bold>BASED IN</A.Bold><br/><A.Blue>Cerritos, CA</A.Blue></S.Location>
+            <S.Location><A.Bold>BASED IN</A.Bold><br /><A.Blue>Cerritos, CA</A.Blue></S.Location>
             <S.ResumeContainer href={resume} target='_blank' rel='noopener noreferrer'>
               <S.Resume>RESUME</S.Resume>
               <S.Icon src={download}></S.Icon>
             </S.ResumeContainer>
           </A.ColumnDiv>
-          <S.ProfilePic src={luke}></S.ProfilePic>
+          {/* <S.ProfilePic src={luke}></S.ProfilePic> */}
         </A.RowDiv>
         <S.SocialContainer>
           <S.Link href="https://github.com/lukechang24/" target="_blank">

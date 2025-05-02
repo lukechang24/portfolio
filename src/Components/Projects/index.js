@@ -34,7 +34,7 @@ const Projects = () => {
           <S.ProjectInfo>
             <S.Title>Sushi Gallery</S.Title>
             <S.Languages>Javascript | React | Papa Parse</S.Languages>
-            <S.Description>A website for a sushi restaurant that displays a menu with pictures, an about section, and online delivery options through food apps. The menu is easily editable by the restaurant through a google sheet document, which is sent as a JSON object to the website using the Papa Parse npm package.</S.Description>
+            <S.Description>A responsive website for a sushi restaurant that displays a menu with pictures, an about section, and online delivery options through food apps. The menu is easily editable by the restaurant through a google sheet document, which is sent as a JSON object to the website using the Papa Parse npm package.</S.Description>
             <S.LinkContainer>
               <S.Link href="https://sushi-gallery.firebaseapp.com/menu" target="_blank">Live Site</S.Link>
               <S.Link href="https://github.com/lukechang24/Sushi-Gallery" target="_blank">Github</S.Link>
@@ -71,8 +71,8 @@ const Projects = () => {
         <S.Project url={usic}>
           <S.ProjectInfo>
             <S.Title>Usic</S.Title>
-            <S.Languages>Javascript | React | Redux</S.Languages>
-            <S.Description>A website dedicated to helping record labels find unsigned artist. I worked as a freelance software engineer to help implement new features, fix bugs, and organize the general codebase. Redux was used all throughout this project, as it made state management much easier with all the information that needed to be passed through the components.</S.Description>
+            <S.Languages>Javascript | React | Redux | APIs</S.Languages>
+            <S.Description>A responsive website dedicated to helping record labels find unsigned artist. I worked as a freelance software engineer to help implement new features, fix bugs, and organize the general codebase. Redux was used all throughout this project, as it made state management much easier with all the information that needed to be passed through the components.</S.Description>
             <S.FullScreen className="fa-solid fa-expand" data-index={3} onClick={handleModal}></S.FullScreen>
           </S.ProjectInfo>
           <S.Overlay></S.Overlay>

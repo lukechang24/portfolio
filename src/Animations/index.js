@@ -7,7 +7,7 @@ export const visible = {
     opacity: 1,
     position: "absolute",
     transition: {
-        delay: 0.4
+        delay: 0.1
     }
 }
 
@@ -16,4 +16,4 @@ export const exit = {
     opacity: 0,
 }
 
-export const duration = 0.4
+export const duration = 0

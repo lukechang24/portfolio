@@ -1,11 +1,13 @@
 import React from "react"
 
 import S from "../style"
+import luke from "../../../Images/headshot.jpg"
 
 const NavMini = (props) => {
   const isHome = props.location.pathname === "/home"
   return (
     <S.MiniNavContainer isHome={isHome}>
+      <S.Headshot isHome={isHome} src={luke}></S.Headshot>
       <S.TitleContainer isHome={isHome}>
         <S.Name isHome={isHome}>LUKE CHANG</S.Name>
         <S.Title>Frontend Developer</S.Title>

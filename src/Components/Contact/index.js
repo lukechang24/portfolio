@@ -15,19 +15,19 @@ const Contact = () => {
     console.log(form.current.from_email)
     emailjs.sendForm('gmail', 'template_owph87a', form.current, 'khA948AvsgviGeZ2V')
       .then((result) => {
-          console.log(result.text);
-          form.current.reset();
-          setShow(true);
+        console.log(result.text);
+        form.current.reset();
+        setShow(true);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
   };
 
   return (
-    <A.Container1 
-      as={motion.div} 
+    <A.Container1
+      as={motion.div}
       initial={hidden}
-      animate={visible} 
+      animate={visible}
       exit={exit}
       transition={{ duration: duration }}
     >
@@ -43,11 +43,11 @@ const Contact = () => {
         <A.RowDiv>
           <S.InfoContainer>
             <S.Icon className="fa-solid fa-phone"></S.Icon>
-            <S.Info>(562) 706 - 3613</S.Info>
+            <S.Info>(562) 545 - 2642</S.Info>
           </S.InfoContainer>
           <S.InfoContainer>
             <S.Icon className="fa-solid fa-envelope"></S.Icon>
-            <S.Info>luk3chang.dev@gmail.com</S.Info>
+            <S.Info>lukechang244@gmail.com</S.Info>
           </S.InfoContainer>
         </A.RowDiv>
       </S.ContactContainer>

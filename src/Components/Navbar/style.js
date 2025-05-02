@@ -64,6 +64,7 @@ S.NavLink = styled(NavLink)`
   font-size: 18px;
   font-weight: 600;
   text-decoration: none;
+  transition: all 0.2s ease-out;
   &:hover {
     color: var(--main-blue);
   }
@@ -118,6 +119,15 @@ S.Title = styled.h3`
   @media only screen and (max-width: 800px) {
     letter-spacing: 5px;
   }
+`
+
+S.Headshot = styled.img`
+  position: absolute;
+  top: 50px;
+  left: 2.5rem;
+  display: ${props => props.isHome ? "block" : "none"};
+  /* transform: translateX(-50%); */
+  width: 200px;
 `
 
 export default S;
