@@ -1,6 +1,6 @@
 # Luke Chang’s Portfolio
 
-This is a **single-page application (SPA)** built with **React** that showcases my projects, includes a working Contact Me page, and an About page.
+This is a **single-page application (SPA)** built with **React** that showcases my projects, an About-Me page, and includes a working Contact page.
 
 ---
 
