@@ -24,4 +24,4 @@ This is a **single-page application (SPA)** built with **React** that showcases 
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/lukechang24/portfolio3.git
+   git clone https://github.com/lukechang24/portfolio.git
