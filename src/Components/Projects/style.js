@@ -17,6 +17,10 @@ S.Grid = styled.div`
     grid-template-columns: 180px 180px;
     gap: 12px;
   }
+  @media only screen and (max-width: 400px) {
+    grid-template-columns: 165px 165px;
+    gap: 10px;
+  }
 `
 
 S.Project = styled.div`
@@ -49,6 +53,9 @@ S.Project = styled.div`
   @media only screen and (max-width: 500px) {
     height: 180px;
   }
+  @media only screen and (max-width: 400px) {
+    height: 165px;
+  }
 `
 
 S.ProjectInfo = styled.div`
@@ -69,6 +76,10 @@ S.ProjectInfo = styled.div`
   @media only screen and (max-width: 500px) {
     font-size: 8px;
     padding: 14px 14px 0;
+  }
+  @media only screen and (max-width: 400px) {
+    font-size: 7.5px;
+    padding: 12px 12px 0;
   }
 `
 
@@ -104,11 +115,24 @@ S.Description = styled.p`
   @media only screen and (max-width: 500px) {
     line-height: 0.65rem;
   }
+  @media only screen and (max-width: 400px) {
+    line-height: 0.55rem;
+  }
 `
 
 S.LinkContainer = styled.div`
+	position: absolute;
+	bottom: 1rem;
+	left: 0;
+	width: 100%;
   display: flex;
   justify-content: space-between;
+	@media only screen and (max-width: 500px) {
+    bottom: 0.4rem;
+  }
+  @media only screen and (max-width: 400px) {
+    bottom: 0.25rem;
+  }
 `
 
 S.Link = styled.a`
@@ -116,6 +140,13 @@ S.Link = styled.a`
   padding-bottom: 1px;
   border-bottom: 1.5px solid var(--main-blue);
   text-decoration: none;
+	margin: 0 2rem;
+	@media only screen and (max-width: 500px) {
+    margin: 0 1.5rem;
+  }
+  @media only screen and (max-width: 400px) {
+    margin: 0 1rem;
+  }
 `
 
 S.FullScreen = styled.i`
@@ -128,7 +159,10 @@ S.FullScreen = styled.i`
   margin: 0 auto;
   cursor: pointer;
   @media only screen and (max-width: 600px) {
-    bottom: 12px;
+    bottom: 0.75rem;
+  }
+  @media only screen and (max-width: 500px) {
+    bottom: 0.35rem;
   }
 `
 

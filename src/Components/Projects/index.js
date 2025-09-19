@@ -32,12 +32,12 @@ const Projects = () => {
       <S.Grid>
         <S.Project url={sushi}>
           <S.ProjectInfo>
-            <S.Title>Sushi Gallery</S.Title>
-            <S.Languages>Javascript | React | Papa Parse</S.Languages>
-            <S.Description>A responsive website for a sushi restaurant that displays a menu with pictures, an about section, and online delivery options through food apps. The menu is easily editable by the restaurant through a google sheet document, which is sent as a JSON object to the website using the Papa Parse npm package.</S.Description>
+            <S.Title>K.Sushi</S.Title>
+            <S.Languages>Javascript | React | Firebase | Vercel</S.Languages>
+            <S.Description>Built and deployed a full-stack web application for my family’s restaurant, streamlining menu access and online ordering for customers. The site integrates Google Sheets API to allow non-technical users to update over 130 menu items—including prices, descriptions, portions, and images—in real time. The mobile-first interface features interactive categories and quick navigation links, providing a smooth user experience for customers.</S.Description>
             <S.LinkContainer>
-              <S.Link href="https://sushi-gallery.firebaseapp.com/menu" target="_blank">Live Site</S.Link>
-              <S.Link href="https://github.com/lukechang24/Sushi-Gallery" target="_blank">Github</S.Link>
+              <S.Link href="https://ksushi.menu/" target="_blank">Live Site</S.Link>
+              <S.Link href="https://github.com/lukechang24/KSushi" target="_blank">Github</S.Link>
             </S.LinkContainer>
             <S.FullScreen className="fa-solid fa-expand" data-index={0} onClick={handleModal}></S.FullScreen>
           </S.ProjectInfo>
