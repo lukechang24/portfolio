@@ -1,4 +1,3 @@
-import React from "react"
 import S from "./style"
 
 import sushi from "../../../Images/sushi.png"

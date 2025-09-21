@@ -1,5 +1,4 @@
-import React, { useState } from "react"
-import { Route, Routes } from "react-router-dom"
+import { useState } from "react"
 import { motion } from "framer-motion"
 
 import Modal from "./Modal"
@@ -16,10 +15,10 @@ import S from "./style"
 const Projects = () => {
   const [showModal, setShowModal] = useState(false);
   const [modalIndex, setModalIndex] = useState(null);
-  const handleModal = async (e) => {
+  const handleModal = (e) => {
     const index = e.currentTarget.dataset.index;
-    await setModalIndex(index);
-    await setShowModal(true);
+    setModalIndex(index);
+    setShowModal(true);
   }
   return (
     <A.Container1 
