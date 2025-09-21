@@ -7,7 +7,7 @@ S.AppContainer = styled.div`
   height: 100%;
   display: flex;
   background-color: black;
-  /* overflow: hidden; */
+  overflow: hidden;
   @media only screen and (max-width: 800px) {
     /* overflow: visible; */
     flex-direction: column;

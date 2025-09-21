@@ -4,9 +4,10 @@ const S = {};
 
 S.Modal = styled.div`
   position: fixed;
+	top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
