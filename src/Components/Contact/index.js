@@ -13,7 +13,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     console.log(form.current.from_email)
-    emailjs.sendForm('gmail', 'template_owph87a', form.current, 'khA948AvsgviGeZ2V')
+    emailjs.sendForm('service_be73a57', 'template_owph87a', form.current, '67YSz6dyccHcKNvmj')
       .then((result) => {
         console.log(result.text);
         form.current.reset();

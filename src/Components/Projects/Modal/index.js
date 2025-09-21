@@ -10,8 +10,8 @@ const Modal = (props) => {
   return(
     <S.Modal className={props.showModal ? "show" : ""}>
       <S.ProjectImg src={fullImages[props.modalIndex]}></S.ProjectImg>
-      <S.Overlay modalIndex={props.modalIndex} onClick={() => props.setShowModal(false)}>
-        <S.Exit className="fa-solid fa-xmark"></S.Exit>
+      <S.Overlay>
+        <S.Exit className="fa-solid fa-xmark" onClick={() => props.setShowModal(false)}></S.Exit>
       </S.Overlay>
     </S.Modal>
   )

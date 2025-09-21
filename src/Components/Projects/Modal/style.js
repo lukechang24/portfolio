@@ -34,9 +34,10 @@ S.ProjectImg = styled.img`
 `
 
 S.Exit = styled.i`
-  position: absolute;
-  right: 28px;
-  top: 28px;
+	position: absolute;
+	right: 28px;
+	top: 28px;
+	font-size: 25px;
   color: white;
   cursor: pointer;
 `
